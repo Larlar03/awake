@@ -1,0 +1,232 @@
+$bg-overlay: rgba(0, 0, 0, 0.2);
+$primary-color: #8C225D;
+$h-font: 'Karla',  sans-serif;
+
+@mixin bg-img($url, $repeat, $size) {
+  background-image: url($url);
+  background-repeat: $repeat;
+  background-size: $size;
+}
+
+@mixin flex($display, $flow, $j-content, $a-items) {
+  display: $display;
+  flex-flow: $flow;
+  justify-content: $j-content;
+  align-items: $a-items;
+}
+
+body {
+  #deskintro {
+    display: none;
+  }
+
+  max-width: 640px;
+  min-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  @include flex(flex, column nowrap, start, stretch);
+  @include bg-img("../img/home-mob.png", no-repeat, auto);
+
+  header {
+    width: 100%;
+    height: auto;
+    flex: 1 1 100%;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    flex: 1 1 100%;
+
+    #intro {
+      max-width: 100%;
+      height: 600px;
+      text-align: center;
+      display: table;
+
+      #intro-overlay {
+        max-width: 100%;
+        height: 600px;
+        background-color: $bg-overlay;
+        text-align: center;
+        display: table;
+
+        h1 {
+          width: 100%;
+          margin: 0 auto;
+          display: block;
+          padding: 0 10px;
+          font-size: 2.8rem;
+          color: white;
+          vertical-align: middle;
+          display: table-cell;
+        }
+      }
+
+    }
+  }
+
+  #testimonials {
+    .carousel-inner {
+      width: 100%;
+      min-height: 350px;
+      padding-top: 50px;
+      background-color: white;
+
+      .carousel-item {
+        width: 80%;
+        line-height: 2;
+        margin: 0 auto;
+        float: none;
+        .blockquote {
+          font-size: 1rem;
+        }
+        footer {
+          background-color: white;
+        }
+      }
+    }
+
+    .carousel-indicators li {
+      background-color: $primary-color;
+    }
+  }
+}
+
+
+/* ================================================================= */
+
+/*TABLET PORTRAIT*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+    min-width: 628px;
+    @include bg-img("../img/home.png", no-repeat, auto);
+    main {
+      #intro {
+        #intro-overlay {
+          h1 {
+            font-size: 4rem;
+          }
+        }
+      }
+    }
+
+
+    #testimonials {
+      .carousel-inner {
+        height: 450px;
+        padding: 100px 0 80px 0;
+        }
+      }
+    }
+  }
+
+  /*TABLET LANDSCAPE*/
+  @media only screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
+
+    #testimonials {
+      .carousel-inner {
+        padding: 130px 0 80px 0;
+        }
+      }
+  }
+
+
+  /*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+  body {
+
+    max-width: 1280px;
+    min-width: 1025px;
+    @include bg-img("../img/home.png", no-repeat, auto);
+    @include flex(flex, column nowrap, flex-start, stretch);
+
+    main {
+
+      #intro {
+        height: 670px;
+        background-color: $bg-overlay;
+        @include flex(flex, row nowrap, flex-end, center);
+
+        #intro-overlay {
+          display: none;
+        }
+
+        #deskintro {
+            display: block;
+            width: 50%;
+            margin: 0;
+            padding: 0 50px 0 0;
+            text-align: right;
+            line-height: 1.7;
+            font-size: 3.75rem;
+            font-weight: bold;
+            color: white;
+          }
+        }
+      }
+
+    #testimonials {
+      .carousel-inner {
+        width: 100%;
+        min-height: 344px;
+        @include flex(flex, column nowrap, center, center);
+
+        .carousel-item {
+          width: 60%;
+        }
+      }
+    }
+  }
+}
+
+/*DESKTOP HI-RES*/
+@media only screen and (min-width: 1281px) {
+
+html {
+  max-width: 100vw;
+  margin: 0 auto;
+
+  body {
+    max-width: 1520px;
+    min-width: 1281px;
+    @include bg-img("../img/home.png", no-repeat, top center);
+    @include flex(flex, column nowrap, flex-start, stretch);
+
+    main {
+      width: 100%;
+      #intro {
+        height: 620px;
+        @include flex(flex, row nowrap, flex-end, center);
+
+        #intro-overlay {
+          display: none;
+          width: 100%;
+          height: 620px;
+          background-color: $bg-overlay;
+
+          #mob-intro {
+            display: none !important;
+          }
+
+        }
+
+        #deskintro {
+          display: block;
+            width: 50%;
+            text-align: right;
+            padding: 20px 50px 20px 0;
+            margin: 0;
+          }
+        }
+      }
+
+  }
+}
+
+}

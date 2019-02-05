@@ -1,0 +1,25 @@
+$footer-purple: #7B4C73;
+$icon-purple: #AC88AD;
+
+footer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  bottom: 0;
+  padding: 20px 10px 10px 10px;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 2;
+  background-color: $footer-purple;
+  color: white;
+
+  a {
+    color: $icon-purple;
+  }
+
+  .fab {
+    font-size: 1.25rem;
+    color: $icon-purple;
+    margin: 0 10px;
+  }
+}
