@@ -1,23 +1,22 @@
-/*body {
-    font-family: 'Lato', sans-serif;
-}
 
-h1 {
-    margin-bottom: 40px;
-}
+#form-container {
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
 
-label {
-    color: #333;
-}
+    .controls {
+      .form-control {
+        font-size: 0.9rem;
+      }
+      .form-group {
+        margin-bottom: 10px;
+        .help-block, .with-errors, .form-group, .has-error, .has-danger {
+          li {
+            font-size: 0.8rem;
+            padding-left: 5px;
+          }
 
-.btn-send {
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    margin-bottom: 20px;
-}
-
-.help-block.with-errors {
-    color: #ff5050;
-    margin-top: 5px;
-}*/
+        }
+      }
+    }
+  }

@@ -69,30 +69,22 @@ body {
       body main .button-container #cta-button:hover {
         background-color: #CF3F94;
         border-color: #CF3F94; }
+  body main .form-button #send-button {
+    width: 100%;
+    margin: 0 auto; }
 
-/*body {
-    font-family: 'Lato', sans-serif;
-}
+#form-container {
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto; }
+  #form-container .controls .form-control {
+    font-size: 0.9rem; }
+  #form-container .controls .form-group {
+    margin-bottom: 10px; }
+    #form-container .controls .form-group .help-block li, #form-container .controls .form-group .with-errors li, #form-container .controls .form-group .form-group li, #form-container .controls .form-group .has-error li, #form-container .controls .form-group .has-danger li {
+      font-size: 0.8rem;
+      padding-left: 5px; }
 
-h1 {
-    margin-bottom: 40px;
-}
-
-label {
-    color: #333;
-}
-
-.btn-send {
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    margin-bottom: 20px;
-}
-
-.help-block.with-errors {
-    color: #ff5050;
-    margin-top: 5px;
-}*/
 body {
   background-image: none;
   background-color: #F4F6F7;
