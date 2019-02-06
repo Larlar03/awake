@@ -1,0 +1,18 @@
+body {
+  background-image: none;
+  background-color: $pages-bgcolor;
+  max-width: 640px;
+  min-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  @include flex(flex, column nowrap, flex-start, stretch);
+
+  main {
+      .button-container {
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 90%;
+        @include buttons ($button-primary, $button-primary, $button-hover, $button-hover)
+        }
+    }
+  }

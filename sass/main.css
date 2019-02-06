@@ -10,6 +10,14 @@
   #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
     color: white; }
 
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  #mobnav {
+    height: 95px; } }
+/*DESKTOP HI-RES*/
+@media only screen and (min-width: 1281px) {
+  #mobnav {
+    height: 95px; } }
 footer {
   width: 100%;
   height: auto;

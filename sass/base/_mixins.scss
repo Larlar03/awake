@@ -1,0 +1,23 @@
+@mixin bg-img($url, $repeat, $size) {
+  background-image: url($url);
+  background-repeat: $repeat;
+  background-size: $size;
+}
+
+@mixin flex($display, $flow, $j-content, $a-items) {
+  display: $display;
+  flex-flow: $flow;
+  justify-content: $j-content;
+  align-items: $a-items;
+}
+
+@mixin buttons ($primary, $p-border, $hover, $h-border) {
+  #cta-button {
+    background-color: $primary;
+    border-color: $p-border;
+    &:hover {
+      background-color: $hover;
+      border-color: $h-border;
+    }
+  }
+}
