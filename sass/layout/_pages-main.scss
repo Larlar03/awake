@@ -1,0 +1,48 @@
+
+
+body {
+  background-image: none;
+  background-color: $pages-bgcolor;
+  max-width: 640px;
+  min-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  @include flex(flex, column nowrap, flex-start, stretch);
+
+  main {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 25px 0;
+
+    .p-content {
+      width: 100%;
+      text-align: justify;
+      text-justify: inter-word;
+      .p-left {
+
+      }
+      .p-text {
+        h1 {
+          color: $primary-color;
+          font-size: 1.6rem;
+          text-align: center;
+          margin-bottom: 16px;
+        }
+
+        p {
+          line-height: 1.5;
+          font-size: 0.8rem;
+          margin: 0;
+          padding: 0 25px;
+        }
+
+        img {
+          max-width: 100%;
+          padding: 25px 0;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

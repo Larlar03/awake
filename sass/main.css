@@ -1,3 +1,11 @@
+/* COLORS */
+/* FOOTER */
+/* BACKGROUND */
+/* BUTTONS */
+/* COLORS */
+/* FOOTER */
+/* BACKGROUND */
+/* BUTTONS */
 #mobnav {
   background-color: rgba(140, 34, 93, 0.8) !important; }
   #mobnav .navbar-brand {
@@ -10,6 +18,18 @@
   #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
     color: white; }
 
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  #mobnav {
+    height: 95px; } }
+/*DESKTOP HI-RES*/
+@media only screen and (min-width: 1281px) {
+  #mobnav {
+    height: 95px; } }
+/* COLORS */
+/* FOOTER */
+/* BACKGROUND */
+/* BUTTONS */
 footer {
   width: 100%;
   height: auto;
@@ -28,6 +48,32 @@ footer {
     color: #AC88AD;
     margin: 0 10px; }
 
+body {
+  background-image: none;
+  background-color: #F4F6F7;
+  max-width: 640px;
+  min-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: stretch; }
+  body main .button-container {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 90%; }
+    body main .button-container #cta-button {
+      background-color: #E345A2;
+      border-color: #E345A2; }
+      body main .button-container #cta-button:hover {
+        background-color: #CF3F94;
+        border-color: #CF3F94; }
+
+/* COLORS */
+/* FOOTER */
+/* BACKGROUND */
+/* BUTTONS */
 body {
   max-width: 640px;
   min-width: 320px;

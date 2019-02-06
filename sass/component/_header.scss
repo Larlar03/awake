@@ -1,5 +1,4 @@
-$nav-color: rgba(140, 34, 93, 0.8);
-$primary-color: #8C225D;
+@import "../base/variables";
 
 #mobnav {
     background-color: $nav-color !important;
@@ -21,4 +20,20 @@ $primary-color: #8C225D;
         color: white;
       }
     }
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+  #mobnav {
+    height: 95px;
+  }
+}
+
+/*DESKTOP HI-RES*/
+@media only screen and (min-width: 1281px) {
+
+  #mobnav {
+    height: 95px;
+  }
 }
