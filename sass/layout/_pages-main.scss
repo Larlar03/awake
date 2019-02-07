@@ -1,5 +1,3 @@
-
-
 body {
   background-image: none;
   background-color: $pages-bgcolor;
@@ -32,15 +30,206 @@ body {
 
         p {
           line-height: 1.5;
-          font-size: 0.8rem;
+          font-size: 1rem;
           margin: 0;
           padding: 0 25px;
+        }
+
+        .contactp {
+          margin: 12.8px 0;
         }
 
         img {
           max-width: 100%;
           padding: 25px 0;
           margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+/* ================================================= */
+
+/*TABLET PORTRAIT*/
+@media only screen and (min-width: 628px) and (max-width: 1024px)  {
+
+  body {
+    max-width: 1024px;
+    min-width: 628px;
+
+    main {
+      width: 85%;
+      padding: 50px 25;
+
+      .p-content {
+        width: 100%;
+        text-align: justify;
+        text-justify: inter-word;
+        .p-left {
+
+        }
+        .p-text {
+          h1 {
+            color: $primary-color;
+            font-size: 1.6rem;
+            text-align: center;
+            margin-bottom: 16px;
+          }
+
+          p {
+            font-size: 1rem;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*TABLET LANDSCAPE*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape)  {
+  body {
+    max-width: 1024px;
+    min-width: 628px;
+
+    main {
+      width: 85%;
+      padding: 50px 25px;
+      @include flex(flex, column nowrap, center, stretch);
+
+      .p-content img {
+          margin: 0 auto;
+      }
+    }
+  }
+}
+
+
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+  body {
+    max-width: 1280px;
+    min-width: 1025px;
+
+    main {
+      width: 95%;
+      height: 100%;
+      @include flex(flex, column nowrap, center, center);
+
+      .p-content {
+        width: 100%;
+        height: auto;
+        @include flex(flex, row nowrap, space-between, center);
+
+        #who-left {
+          @include bg-img('../img/who-we-are.png', no-repeat, cover);
+          background-position: center;
+        }
+        #what-left {
+          @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
+          background-position: center;
+        }
+        #contact-left {
+          @include bg-img('../img/contact-us.png', no-repeat, cover);
+          background-position: center;
+        }
+
+        .p-left {
+          display: block;
+          width: 50%;
+          min-height: 487px;
+          flex: 1 1 50%;
+        }
+        .p-text {
+          max-width: 50%;
+          height: 487px;
+          overflow-y: scroll;
+          text-align: justify;
+          flex: 1 1 50%;
+          padding-left: 40px;
+          margin: 0 auto;
+
+          img {
+            display: none;
+          }
+
+          h1 {
+            font-size: 1.9rem;
+            padding-bottom: 20px;
+          }
+
+          p {
+            font-size: 1rem;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*DESKTOP HI-RES*/
+@media only screen and (min-width: 1281px) {
+
+  body {
+    min-width: 1281px;
+
+    main {
+      width: 95%;
+      height: 100%;
+      @include flex(flex, column nowrap, center, center);
+
+      .p-content {
+        width: 100%;
+        height: auto;
+        @include flex(flex, row nowrap, space-between, center);
+
+        #who-left {
+          @include bg-img('../img/who-we-are.png', no-repeat, cover);
+          background-position: center;
+        }
+        #what-left {
+          @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
+          background-position: center;
+        }
+        #contact-left {
+          @include bg-img('../img/contact-us.png', no-repeat, cover);
+          background-position: center;
+        }
+
+        .p-left {
+          display: block;
+          width: 50%;
+          min-height: 487px;
+          flex: 1 1 50%;
+          padding-left: 20px;
+        }
+        .p-text {
+          max-width: 50%;
+          height: 487px;
+          overflow-y: scroll;
+          text-align: justify;
+          flex: 1 1 50%;
+          padding-left: 40px;
+          margin: 0 auto;
+
+          img {
+            display: none;
+          }
+
+          h1 {
+            font-size: 1.9rem;
+            padding-bottom: 20px;
+          }
+
+          p {
+            font-size: 1rem;
+            padding: 0;
+          }
         }
       }
     }

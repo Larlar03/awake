@@ -21,3 +21,15 @@
     }
   }
 }
+
+
+@mixin success-buttons ($sprimary, $sp-border, $shover, $sh-border) {
+#send-button {
+  background-color: $sprimary;
+  border-color: $sp-border;
+  &:hover {
+    background-color: $shover;
+    border-color: $sh-border;
+  }
+}
+}

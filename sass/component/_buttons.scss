@@ -8,19 +8,50 @@ body {
   @include flex(flex, column nowrap, flex-start, stretch);
 
   main {
-      .button-container {
-        margin: 0 auto;
-        margin-top: 25px;
-        width: 90%;
-        @include buttons ($button-primary, $button-primary, $button-hover, $button-hover)
-        }
+    .button-container {
+      margin: 25px auto 0;
+      width: 90%;
+      @include buttons ($button-primary, $button-primary, $button-hover, $button-hover)
+    }
 
-        .form-button {
-
-          #send-button {
-            width: 100%;
-            margin: 0 auto;
-          }
-          }
+    .form-button {
+        @include success-buttons ($button-primary, $button-primary, $button-hover, $button-hover);
+        #send-button {
+          width: 100%;
+          margin: 0 auto;
         }
     }
+  }
+}
+/*TABLET PORTRAIT*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) {
+  main {
+    .button-container {
+      padding: 30px 150px 10px 150px;
+    }
+
+    .form-button {
+      #send-button {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  main {
+    .button-container {
+      padding: 15px 20px 0 20px;
+    }
+
+    .form-button {
+      #send-button {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
