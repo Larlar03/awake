@@ -46,7 +46,7 @@ footer {
   footer .fab {
     font-size: 1.25rem;
     color: #AC88AD;
-    margin: 0 10px; }
+    margin: 0 10px 16px 10px; }
 
 body {
   background-image: none;
@@ -60,8 +60,7 @@ body {
   justify-content: flex-start;
   align-items: stretch; }
   body main .button-container {
-    margin: 0 auto;
-    margin-top: 25px;
+    margin: 25px auto 0;
     width: 90%; }
     body main .button-container #cta-button {
       background-color: #E345A2;
@@ -70,9 +69,29 @@ body {
         background-color: #CF3F94;
         border-color: #CF3F94; }
   body main .form-button #send-button {
+    background-color: #E345A2;
+    border-color: #E345A2; }
+    body main .form-button #send-button:hover {
+      background-color: #CF3F94;
+      border-color: #CF3F94; }
+  body main .form-button #send-button {
     width: 100%;
     margin: 0 auto; }
 
+/*TABLET PORTRAIT*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) {
+  main .button-container {
+    padding: 30px 150px 10px 150px; }
+  main .form-button #send-button {
+    width: 100%;
+    margin: 0 auto; } }
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  main .button-container {
+    padding: 15px 20px 0 20px; }
+  main .form-button #send-button {
+    width: 100%;
+    margin: 0 auto; } }
 #form-container {
   max-width: 90%;
   height: auto;
@@ -81,7 +100,11 @@ body {
     font-size: 0.9rem; }
   #form-container .controls .form-group {
     margin-bottom: 10px; }
-    #form-container .controls .form-group .help-block li, #form-container .controls .form-group .with-errors li, #form-container .controls .form-group .form-group li, #form-container .controls .form-group .has-error li, #form-container .controls .form-group .has-danger li {
+    #form-container .controls .form-group .form-group li,
+    #form-container .controls .form-group .has-danger li,
+    #form-container .controls .form-group .has-error li,
+    #form-container .controls .form-group .help-block li,
+    #form-container .controls .form-group .with-errors li {
       font-size: 0.8rem;
       padding-left: 5px; }
 
@@ -112,12 +135,160 @@ body {
         margin-bottom: 16px; }
       body main .p-content .p-text p {
         line-height: 1.5;
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin: 0;
         padding: 0 25px; }
+      body main .p-content .p-text .contactp {
+        margin: 12.8px 0; }
       body main .p-content .p-text img {
         max-width: 100%;
         padding: 25px 0;
         margin: 0 auto; }
+
+/* ================================================= */
+/*TABLET PORTRAIT*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+    min-width: 628px; }
+    body main {
+      width: 85%;
+      padding: 50px 25; }
+      body main .p-content {
+        width: 100%;
+        text-align: justify;
+        text-justify: inter-word; }
+        body main .p-content .p-text h1 {
+          color: #8C225D;
+          font-size: 1.6rem;
+          text-align: center;
+          margin-bottom: 16px; }
+        body main .p-content .p-text p {
+          font-size: 1rem;
+          padding: 0; } }
+/*TABLET LANDSCAPE*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    max-width: 1024px;
+    min-width: 628px; }
+    body main {
+      width: 85%;
+      padding: 50px 25px;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: stretch; }
+      body main .p-content img {
+        margin: 0 auto; } }
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    max-width: 1280px;
+    min-width: 1025px; }
+    body main {
+      width: 95%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center; }
+      body main .p-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center; }
+        body main .p-content #who-left {
+          background-image: url("../img/who-we-are.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+        body main .p-content #what-left {
+          background-image: url("../img/what-we-do-1.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+        body main .p-content #contact-left {
+          background-image: url("../img/contact-us.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+        body main .p-content .p-left {
+          display: block;
+          width: 50%;
+          min-height: 487px;
+          flex: 1 1 50%; }
+        body main .p-content .p-text {
+          max-width: 50%;
+          height: 487px;
+          overflow-y: scroll;
+          text-align: justify;
+          flex: 1 1 50%;
+          padding-left: 40px;
+          margin: 0 auto; }
+          body main .p-content .p-text img {
+            display: none; }
+          body main .p-content .p-text h1 {
+            font-size: 1.9rem;
+            padding-bottom: 20px; }
+          body main .p-content .p-text p {
+            font-size: 1rem;
+            padding: 0; } }
+/*DESKTOP HI-RES*/
+@media only screen and (min-width: 1281px) {
+  body {
+    min-width: 1281px; }
+    body main {
+      width: 95%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center; }
+      body main .p-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center; }
+        body main .p-content #who-left {
+          background-image: url("../img/who-we-are.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+        body main .p-content #what-left {
+          background-image: url("../img/what-we-do-1.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+        body main .p-content #contact-left {
+          background-image: url("../img/contact-us.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+        body main .p-content .p-left {
+          display: block;
+          width: 50%;
+          min-height: 487px;
+          flex: 1 1 50%;
+          padding-left: 20px; }
+        body main .p-content .p-text {
+          max-width: 50%;
+          height: 487px;
+          overflow-y: scroll;
+          text-align: justify;
+          flex: 1 1 50%;
+          padding-left: 40px;
+          margin: 0 auto; }
+          body main .p-content .p-text img {
+            display: none; }
+          body main .p-content .p-text h1 {
+            font-size: 1.9rem;
+            padding-bottom: 20px; }
+          body main .p-content .p-text p {
+            font-size: 1rem;
+            padding: 0; } }
 
 /*# sourceMappingURL=pages.css.map */
