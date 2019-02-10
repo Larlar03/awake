@@ -5,6 +5,11 @@
 
     .navbar-brand {
       color: white;
+      margin-right: 0px;
+      img {
+        width: 20%;
+        margin-right: 20px;
+      }
     }
 
     .navbar-toggler {
@@ -20,6 +25,10 @@
         color: white;
       }
     }
+
+a {
+
+}
 }
 
 /*DESKTOP*/

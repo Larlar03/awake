@@ -2,14 +2,23 @@
 /* FOOTER */
 /* BACKGROUND */
 /* BUTTONS */
+/*background image */
+/*flexbox */
+/*links */
+/*primary button*/
+/*submit/success button */
 /* COLORS */
 /* FOOTER */
 /* BACKGROUND */
 /* BUTTONS */
 #mobnav {
-  background-color: rgba(140, 34, 93, 0.8) !important; }
+  background-color: rgba(140, 34, 93, 0.92) !important; }
   #mobnav .navbar-brand {
-    color: white; }
+    color: white;
+    margin-right: 0px; }
+    #mobnav .navbar-brand img {
+      width: 20%;
+      margin-right: 20px; }
   #mobnav .navbar-toggler {
     color: white;
     border-color: rgba(0, 0, 0, 0); }
@@ -35,7 +44,7 @@ footer {
   height: auto;
   margin: 0 auto;
   bottom: 0;
-  padding: 20px 10px 10px 10px;
+  padding: 20px 10px 10px;
   font-size: 0.8rem;
   text-align: center;
   line-height: 2;
@@ -43,10 +52,20 @@ footer {
   color: white; }
   footer a {
     color: #AC88AD; }
+    footer a:visited {
+      color: #AC88AD; }
+    footer a:hover {
+      color: #330d22; }
+    footer a:active {
+      color: #ca9ab5; }
+  footer .phonenum {
+    color: #fff; }
   footer .fab {
     font-size: 1.25rem;
     color: #AC88AD;
-    margin: 0 10px 16px 10px; }
+    margin: 0 10px 16px; }
+    footer .fab:hover {
+      color: #330d22; }
 
 body {
   background-image: none;
@@ -119,6 +138,8 @@ body {
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: stretch; }
+  body #mobnav {
+    background-color: #8C225D !important; }
   body main {
     width: 100%;
     height: auto;
@@ -129,7 +150,7 @@ body {
       text-align: justify;
       text-justify: inter-word; }
       body main .p-content .p-text h1 {
-        color: #8C225D;
+        color: #330d22;
         font-size: 1.6rem;
         text-align: center;
         margin-bottom: 16px; }
@@ -186,15 +207,16 @@ body {
     max-width: 1280px;
     min-width: 1025px; }
     body main {
-      width: 95%;
-      height: 100%;
+      width: 100%;
+      min-height: 768px;
+      padding: 0;
       display: flex;
       flex-flow: column nowrap;
       justify-content: center;
       align-items: center; }
       body main .p-content {
         width: 100%;
-        height: auto;
+        height: 100%;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -217,26 +239,30 @@ body {
         body main .p-content .p-left {
           display: block;
           width: 50%;
-          min-height: 487px;
+          min-height: 100%;
           flex: 1 1 50%; }
         body main .p-content .p-text {
           max-width: 50%;
-          height: 487px;
+          height: 100%;
           overflow-y: scroll;
           text-align: justify;
           flex: 1 1 50%;
-          padding-left: 40px;
+          padding: 60px 60px;
           margin: 0 auto; }
           body main .p-content .p-text img {
             display: none; }
           body main .p-content .p-text h1 {
             font-size: 1.9rem;
             padding-bottom: 20px; }
-          body main .p-content .p-text p {
-            font-size: 1rem;
-            padding: 0; } }
+          body main .p-content .p-text .paragraphs {
+            height: auto; }
+            body main .p-content .p-text .paragraphs p {
+              font-size: 1rem;
+              padding: 0 0 30px 0; }
+          body main .p-content .p-text .button-container {
+            margin: 0 auto; } }
 /*DESKTOP HI-RES*/
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1281px) and (max-width: 2500px) {
   body {
     min-width: 1281px; }
     body main {
@@ -248,7 +274,7 @@ body {
       align-items: center; }
       body main .p-content {
         width: 100%;
-        height: auto;
+        height: 100%;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -271,7 +297,7 @@ body {
         body main .p-content .p-left {
           display: block;
           width: 50%;
-          min-height: 487px;
+          min-height: 100%;
           flex: 1 1 50%;
           padding-left: 20px; }
         body main .p-content .p-text {

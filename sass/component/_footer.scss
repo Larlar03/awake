@@ -5,20 +5,28 @@ footer {
   height: auto;
   margin: 0 auto;
   bottom: 0;
-  padding: 20px 10px 10px 10px;
+  padding: 20px 10px 10px;
   font-size: 0.8rem;
   text-align: center;
   line-height: 2;
-  background-color: $footer-purple;
+  background-color: #7B4C73;
   color: white;
 
   a {
-    color: $icon-purple;
+    @include links(#AC88AD, #AC88AD, #330d22, #ca9ab5);
+  }
+
+  .phonenum {
+    color: #fff;
   }
 
   .fab {
     font-size: 1.25rem;
     color: $icon-purple;
-    margin: 0 10px 16px 10px;
+    margin: 0 10px 16px;
+
+    &:hover {
+      color: #330d22;
+    }
   }
 }

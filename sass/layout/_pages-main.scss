@@ -7,6 +7,10 @@ body {
   margin: 0 auto;
   @include flex(flex, column nowrap, flex-start, stretch);
 
+  #mobnav {
+    background-color: $primary-color !important;
+  }
+
   main {
     width: 100%;
     height: auto;
@@ -22,7 +26,7 @@ body {
       }
       .p-text {
         h1 {
-          color: $primary-color;
+          color: #330d22;
           font-size: 1.6rem;
           text-align: center;
           margin-bottom: 16px;
@@ -115,13 +119,14 @@ body {
     min-width: 1025px;
 
     main {
-      width: 95%;
-      height: 100%;
+      width: 100%;
+      min-height: 768px;
+      padding: 0;
       @include flex(flex, column nowrap, center, center);
 
       .p-content {
         width: 100%;
-        height: auto;
+        height: 100%;
         @include flex(flex, row nowrap, space-between, center);
 
         #who-left {
@@ -140,16 +145,16 @@ body {
         .p-left {
           display: block;
           width: 50%;
-          min-height: 487px;
+          min-height: 100%;
           flex: 1 1 50%;
         }
         .p-text {
           max-width: 50%;
-          height: 487px;
+          height: 100%;
           overflow-y: scroll;
           text-align: justify;
           flex: 1 1 50%;
-          padding-left: 40px;
+          padding: 60px 60px;
           margin: 0 auto;
 
           img {
@@ -160,10 +165,15 @@ body {
             font-size: 1.9rem;
             padding-bottom: 20px;
           }
-
-          p {
-            font-size: 1rem;
-            padding: 0;
+          .paragraphs {
+            height: auto;
+            p {
+              font-size: 1rem;
+              padding: 0 0 30px 0;
+            }
+          }
+          .button-container {
+            margin: 0 auto;
           }
         }
       }
@@ -173,7 +183,7 @@ body {
 
 
 /*DESKTOP HI-RES*/
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1281px) and (max-width: 2500px) {
 
   body {
     min-width: 1281px;
@@ -185,7 +195,7 @@ body {
 
       .p-content {
         width: 100%;
-        height: auto;
+        height: 100%;
         @include flex(flex, row nowrap, space-between, center);
 
         #who-left {
@@ -204,7 +214,7 @@ body {
         .p-left {
           display: block;
           width: 50%;
-          min-height: 487px;
+          min-height: 100%;
           flex: 1 1 50%;
           padding-left: 20px;
         }
