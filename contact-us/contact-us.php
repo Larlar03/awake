@@ -105,7 +105,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col" id="submit">
+              <div class="col" id="submit-container">
               <div class="g-recaptcha" data-sitekey="6LeBeZAUAAAAAMHkscvG-D77JpZ583Khlnie32QG"></div><br>
               <div class="col form-button">
                 <input type="submit" id="send-button" class="btn btn-success btn-send" value="Send message">
