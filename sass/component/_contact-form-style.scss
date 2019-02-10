@@ -22,7 +22,7 @@
         }
       }
     }
-    #submit {
+    #submit-container {
       width: 100%;
       @include flex(flex, column nowrap, flex-start, center);
       .g-recaptcha {
