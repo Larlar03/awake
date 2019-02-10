@@ -6,7 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <title>Awake Birmingham</title>
+  <title>Awake Birmingham - What We Do</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -28,7 +28,7 @@
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Awake Birmingham</a>
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -48,6 +48,7 @@
       <div class="p-left" id="what-left"></div>
       <div class="p-text">
         <h1>What We Do</h1>
+        <div class="paragraphs">
         <p class="p-center">We support parents with issues to do with education including:<br></p>
 
         <p style="text-align: center; line-height: 1.6;"><strong>Exclusions/Temporary exclusion</strong><br>
@@ -68,13 +69,14 @@
         <div class="button-container">
           <button type="button" id="cta-button" class="btn btn-primary btn-block">Attend a Drop-In Session</button>
         </div>
+      </div>
     </section>
   </main>
 
 
   <footer>
     <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
-    <p>Jalika: (+44) 7702 018595   |   Imani: (+44) 7877 400646</p>
+    <p>Jalika: <a class="phonenum" href="tel:+447702018595">(+44) 7702 018595</a>   |   Imani: <a class="phonenum"  href="tel:+447877400646">(+44) 7877 400646</p>
 
     <a href="https://www.facebook.com/awa.ke.31"><i class="fab fa-facebook-square"></i></span></a>
 
@@ -84,7 +86,6 @@
 
     <p>&copy; <?php echo date("Y");?> Awake</p>
   </footer>
-
 
   <!--Bootstrap JS-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

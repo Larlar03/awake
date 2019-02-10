@@ -4,20 +4,20 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'AWAKE contact form <enquiry@awakebirmingham.co.uk>';
+$from = 'Awake Bham contact form <enquiry@awakebirmingham.co.uk>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <lanagordon03@gmail.com>';
+$sendTo = 'Awake Bham contact form <lanagordon03@gmail.com>';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'New message from Awake Bham contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('name' => 'Name', 'email' => 'Email', 'number' => 'Number', 'subject' => 'Subject', 'message' => 'Message');
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, we will get back to you soon!';
+$okMessage = 'Thank you, we will get back to you soon!';
 
 // If something goes wrong, we will display this message.
 $errorMessage = 'There was an error while submitting the form. Please try again';

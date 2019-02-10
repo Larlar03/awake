@@ -27,7 +27,7 @@
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Awake Birmingham</a>
+  <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -93,7 +93,7 @@
 
   <footer>
     <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
-    <p>Jalika: (+44) 7702 018595   |   Imani: (+44) 7877 400646</p>
+    <p>Jalika: <a class="phonenum" href="tel:+447702018595">(+44) 7702 018595</a>   |   Imani: <a class="phonenum"  href="tel:+447877400646">(+44) 7877 400646</p>
 
     <a href="https://www.facebook.com/awa.ke.31"><i class="fab fa-facebook-square"></i></span></a>
 
