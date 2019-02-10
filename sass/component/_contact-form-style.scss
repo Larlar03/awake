@@ -10,7 +10,7 @@
 
     .form-group {
       margin-bottom: 10px;
-      
+
       .form-group,
       .has-danger,
       .has-error,
@@ -20,6 +20,13 @@
           font-size: 0.8rem;
           padding-left: 5px;
         }
+      }
+    }
+    #submit {
+      width: 100%;
+      @include flex(flex, column nowrap, flex-start, center);
+      .g-recaptcha {
+        margin: 0 auto;
       }
     }
   }
