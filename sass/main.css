@@ -12,7 +12,7 @@
 /* BACKGROUND */
 /* BUTTONS */
 #mobnav {
-  background-color: rgba(140, 34, 93, 0.92) !important; }
+  background-color: rgba(159, 24, 108, 0.92) !important; }
   #mobnav .navbar-brand {
     color: white;
     margin-right: 0px; }
@@ -27,14 +27,6 @@
   #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
     color: white; }
 
-/*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-  #mobnav {
-    height: 95px; } }
-/*DESKTOP HI-RES*/
-@media only screen and (min-width: 1281px) {
-  #mobnav {
-    height: 95px; } }
 /* COLORS */
 /* FOOTER */
 /* BACKGROUND */
@@ -180,7 +172,7 @@ body {
       body #testimonials .carousel-inner .carousel-item footer {
         background-color: white; }
   body #testimonials .carousel-indicators li {
-    background-color: #8C225D; }
+    background-color: #A0186C; }
 
 /* ================================================================= */
 /*TABLET PORTRAIT*/

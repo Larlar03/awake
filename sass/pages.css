@@ -12,7 +12,7 @@
 /* BACKGROUND */
 /* BUTTONS */
 #mobnav {
-  background-color: rgba(140, 34, 93, 0.92) !important; }
+  background-color: rgba(159, 24, 108, 0.92) !important; }
   #mobnav .navbar-brand {
     color: white;
     margin-right: 0px; }
@@ -27,14 +27,6 @@
   #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
     color: white; }
 
-/*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-  #mobnav {
-    height: 95px; } }
-/*DESKTOP HI-RES*/
-@media only screen and (min-width: 1281px) {
-  #mobnav {
-    height: 95px; } }
 /* COLORS */
 /* FOOTER */
 /* BACKGROUND */
@@ -154,7 +146,7 @@ body {
   justify-content: flex-start;
   align-items: stretch; }
   body #mobnav {
-    background-color: #8C225D !important; }
+    background-color: #A0186C !important; }
   body main {
     width: 100%;
     height: auto;
@@ -195,7 +187,7 @@ body {
         text-align: justify;
         text-justify: inter-word; }
         body main .p-content .p-text h1 {
-          color: #8C225D;
+          color: #A0186C;
           font-size: 1.6rem;
           text-align: center;
           margin-bottom: 16px; }
@@ -217,7 +209,7 @@ body {
       body main .p-content img {
         margin: 0 auto; } }
 /*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1025px) and (max-width: 2500px) {
   body {
     max-width: 1280px;
     min-width: 1025px; }
@@ -276,60 +268,68 @@ body {
               padding: 0 0 30px 0; }
           body main .p-content .p-text .button-container {
             margin: 0 auto; } }
-/*DESKTOP HI-RES*/
+/*DESKTOP HI-RES
 @media only screen and (min-width: 1281px) and (max-width: 2500px) {
+
   body {
-    min-width: 1281px; }
-    body main {
+    min-width: 1281px;
+
+    main {
       width: 95%;
       height: 100%;
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: center;
-      align-items: center; }
-      body main .p-content {
+      @include flex(flex, column nowrap, center, center);
+
+      .p-content {
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: center; }
-        body main .p-content #who-left {
-          background-image: url("../img/who-we-are.png");
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center; }
-        body main .p-content #what-left {
-          background-image: url("../img/what-we-do-1.png");
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center; }
-        body main .p-content #contact-left {
-          background-image: url("../img/contact-us.png");
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center; }
-        body main .p-content .p-left {
+        @include flex(flex, row nowrap, space-between, center);
+
+        #who-left {
+          @include bg-img('../img/who-we-are.png', no-repeat, cover);
+          background-position: center;
+        }
+        #what-left {
+          @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
+          background-position: center;
+        }
+        #contact-left {
+          @include bg-img('../img/contact-us.png', no-repeat, cover);
+          background-position: center;
+        }
+
+        .p-left {
           display: block;
           width: 50%;
           min-height: 100%;
           flex: 1 1 50%;
-          padding-left: 20px; }
-        body main .p-content .p-text {
+          padding-left: 20px;
+        }
+        .p-text {
           max-width: 50%;
           height: 487px;
           overflow-y: scroll;
           text-align: justify;
           flex: 1 1 50%;
           padding-left: 40px;
-          margin: 0 auto; }
-          body main .p-content .p-text img {
-            display: none; }
-          body main .p-content .p-text h1 {
+          margin: 0 auto;
+
+          img {
+            display: none;
+          }
+
+          h1 {
             font-size: 1.9rem;
-            padding-bottom: 20px; }
-          body main .p-content .p-text p {
+            padding-bottom: 20px;
+          }
+
+          p {
             font-size: 1rem;
-            padding: 0; } }
+            padding: 0;
+          }
+        }
+      }
+    }
+  }s
+}*/
 
 /*# sourceMappingURL=pages.css.map */
