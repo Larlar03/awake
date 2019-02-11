@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Awake Bham contact form <enquiry@awakebirmingham.co.uk>';
+$from = 'Awake Admin <admin@awakebirmingham.co.uk>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Awake Bham contact form <lanagordon03@gmail.com>';
+$sendTo = 'Awake Birmingham <lanagordon03@gmail.com>';
 
 // subject of the email
 $subject = 'New message from Awake Bham contact form';

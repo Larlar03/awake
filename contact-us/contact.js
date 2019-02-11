@@ -33,7 +33,7 @@ $(function () {
                     // If we have messageAlert and messageText
                     if (messageAlert && messageText) {
                         // inject the alert to .messages div in our form
-                        $('#contact-form').find('.messages').html(alertBox);
+                        $('#contact-form').find('.messages').php(alertBox);
                         // empty the form
                         $('#contact-form')[0].reset();
                     }
