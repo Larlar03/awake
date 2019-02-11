@@ -67,7 +67,7 @@
         <p>
           The AWAKE team works alongside faith and non-faith schools in conjunction with parents to achieve the best possible outcome for the child.</p>
         <div class="button-container">
-          <button type="button" id="cta-button" class="btn btn-primary btn-block">Attend a Drop-In Session</button>
+          <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend a Drop-In Session</button>
         </div>
       </div>
     </section>

@@ -61,7 +61,7 @@
           with all children.</p>
 
         <div class="button-container">
-          <button type="button" id="cta-button" class="btn btn-primary btn-block">Attend a Drop-In Session</button>
+          <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend a Drop-In Session</button>
         </div>
       </div>
     </section>

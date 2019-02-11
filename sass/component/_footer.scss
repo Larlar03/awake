@@ -2,22 +2,22 @@
 
 footer {
   width: 100%;
-  height: auto;
+  height: 174px;
   margin: 0 auto;
   bottom: 0;
   padding: 20px 10px 10px;
   font-size: 0.8rem;
   text-align: center;
   line-height: 2;
-  background-color: #7B4C73;
-  color: white;
+  background-color: $pages-bgcolor;
+  color: #5e3858;
 
   a {
     @include links(#AC88AD, #AC88AD, #330d22, #ca9ab5);
   }
 
   .phonenum {
-    color: #fff;
+    color: #5e3858;
   }
 
   .fab {

@@ -1,9 +1,12 @@
+@import "../base/variables";
+@import "../base/mixins";
+
 body {
   background-image: none;
-  background-color: $pages-bgcolor;
+  background-color: white;
   max-width: 640px;
   min-width: 320px;
-  height: auto;
+  min-height: calc(100vh - 174px);
   margin: 0 auto;
   @include flex(flex, column nowrap, flex-start, stretch);
 
