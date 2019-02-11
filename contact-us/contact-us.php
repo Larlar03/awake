@@ -84,7 +84,7 @@
               <div class="row">
                 <div class="col">
                   <div class="form-group">
-                    <input id="form_number" type="tel" name="number" class="form-control" placeholder="Phone Number" <div class="help-block with-errors"></div>
+                    <input id="form_number" type="tel" name="number" class="form-control" placeholder="Phone Number"> <div class="help-block with-errors"></div>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@
             </div>
             <div class="row">
               <div class="col" id="submit-container">
-              <div id="recaptcha" class="g-recaptcha" data-sitekey="6LeBeZAUAAAAAMHkscvG-D77JpZ583Khlnie32QG" style="width: 304px; margin: 0 auto;"></div><br>
+              <div id="recaptcha" class="g-recaptcha" data-sitekey="6LeBeZAUAAAAAMHkscvG-D77JpZ583Khlnie32QG" style="width: 304px; margin: 0 auto; padding: 15px 0 20px 0;"></div><br>
               <div class="col form-button">
                 <input type="submit" id="send-button" class="btn btn-success btn-send" value="Send message">
               </div>
@@ -124,13 +124,13 @@
 
   <footer>
     <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
-    <p>Jalika: <a class="phonenum" href="tel:+447702018595">(+44) 7702 018595</a>   |   Imani: <a class="phonenum"  href="tel:+447877400646">(+44) 7877 400646</p>
+    <p>Jalika: <a class="phonenum" href="tel:+447702018595">(+44) 7702 018595</a>   |   Imani: <a class="phonenum"  href="tel:+447877400646"</a>(+44) 7877 400646</p>
 
-    <a href="https://www.facebook.com/awa.ke.31"><i class="fab fa-facebook-square"></i></span></a>
+    <a href="https://www.facebook.com/awa.ke.31"><i class="fab fa-facebook-square"></i></a>
 
-    <a href="https://www.instagram.com/bhamawake/"><i class="fab fa-instagram"></i></span></a>
+    <a href="https://www.instagram.com/bhamawake/"><i class="fab fa-instagram"></i></a>
 
-      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174"><i class="fab fa-linkedin"></i></span></a>
+      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174"><i class="fab fa-linkedin"></i></a>
 
     <p>&copy; <?php echo date("Y");?> Awake</p>
   </footer>

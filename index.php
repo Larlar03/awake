@@ -93,13 +93,13 @@
 
   <footer>
     <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
-    <p>Jalika: <a class="phonenum" href="tel:+447702018595">(+44) 7702 018595</a>   |   Imani: <a class="phonenum"  href="tel:+447877400646">(+44) 7877 400646</p>
+    <p>Jalika: <a class="phonenum" href="tel:+447702018595">(+44) 7702 018595</a>   |   Imani: <a class="phonenum"  href="tel:+447877400646"</a>(+44) 7877 400646</p>
 
-    <a href="https://www.facebook.com/awa.ke.31"><i class="fab fa-facebook-square"></i></span></a>
+    <a href="https://www.facebook.com/awa.ke.31"><i class="fab fa-facebook-square"></i></a>
 
-    <a href="https://www.instagram.com/bhamawake/"><i class="fab fa-instagram"></i></span></a>
+    <a href="https://www.instagram.com/bhamawake/"><i class="fab fa-instagram"></i></a>
 
-      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174"><i class="fab fa-linkedin"></i></span></a>
+      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174"><i class="fab fa-linkedin"></i></a>
 
     <p>&copy; <?php echo date("Y");?> Awake</p>
   </footer>
