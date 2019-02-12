@@ -66,8 +66,10 @@
         </p>
         <p>
           The AWAKE team works alongside faith and non-faith schools in conjunction with parents to achieve the best possible outcome for the child.</p>
+
         <div class="button-container">
           <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend a Drop-In Session</button>
+        </div>
         </div>
       </div>
     </section>
@@ -76,9 +78,9 @@
 
   <footer>
     <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
-    <p>Jalika: <a class="phonenum" href="tel:+447702018595">(+44) 7702 018595</a>   |   Imani: <a class="phonenum"  href="tel:+447877400646"</a>(+44) 7877 400646</p>
+    <p>Jalika: <a class="phonenum" href="tel:+447702018595" >(+44) 7702 018595</a>   |   Imani: <a class="phonenum" href="tel:+447877400646" </a>(+44) 7877 400646</p>
 
-    <a href="https://www.facebook.com/awa.ke.31"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.facebook.com/awa.ke.31"</a><i class="fab fa-facebook-square"></i></a>
 
     <a href="https://www.instagram.com/bhamawake/"><i class="fab fa-instagram"></i></a>
 

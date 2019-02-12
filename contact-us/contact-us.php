@@ -24,16 +24,13 @@
 <!-- Stylesheer -->
   <link rel="stylesheet" href="../sass/pages.css">
 
-  <!-- reCAPTCHA -->
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
 
 </head>
 
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.php"><img src="../img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
+      <a class="navbar-brand" href="../index.php"><img src="../img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -106,34 +103,34 @@
             </div>
             <div class="row">
               <div class="col" id="submit-container">
-              <div id="recaptcha" class="g-recaptcha" data-sitekey="6LeBeZAUAAAAAMHkscvG-D77JpZ583Khlnie32QG" style="width: 304px; margin: 0 auto; padding: 15px 0 20px 0;"></div><br>
+              <div id="recaptcha" class="g-recaptcha" data-sitekey="6LfmCpEUAAAAAIMoxnb6CYtG32jOXUJhmxR0B-pG" data-callback="enableBtn" style="width: 304px; margin: 0 auto; padding: 15px 0 20px 0;"></div><br>
               <div class="col form-button">
                 <input type="submit" id="send-button" class="btn btn-success btn-send" value="Send message">
               </div>
             </div>
             </div>
-
         </div>
-
         </form>
+
       </div>
       </div>
     </section>
   </main>
 
 
-  <footer>
-    <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
-    <p>Jalika: <a class="phonenum" href="tel:+447702018595">(+44) 7702 018595</a>   |   Imani: <a class="phonenum"  href="tel:+447877400646"</a>(+44) 7877 400646</p>
 
-    <a href="https://www.facebook.com/awa.ke.31"><i class="fab fa-facebook-square"></i></a>
+    <footer>
+      <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
+      <p>Jalika: <a class="phonenum" href="tel:+447702018595" >(+44) 7702 018595</a>   |   Imani: <a class="phonenum" href="tel:+447877400646" </a>(+44) 7877 400646</p>
 
-    <a href="https://www.instagram.com/bhamawake/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/awa.ke.31"</a><i class="fab fa-facebook-square"></i></a>
 
-      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/bhamawake/"><i class="fab fa-instagram"></i></a>
 
-    <p>&copy; <?php echo date("Y");?> Awake</p>
-  </footer>
+        <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174"><i class="fab fa-linkedin"></i></a>
+
+      <p>&copy; <?php echo date("Y");?> Awake</p>
+    </footer>
 
 
   <!--Bootstrap JS-->
@@ -142,6 +139,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
   <script src="contact.js"></script>
+
+  <!-- reCAPTCHA -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
 
 </body>
 

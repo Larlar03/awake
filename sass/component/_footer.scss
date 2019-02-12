@@ -1,32 +1,30 @@
-@import "../base/variables";
-
 footer {
   width: 100%;
-  height: 174px;
+  height: 175px;
   margin: 0 auto;
   bottom: 0;
   padding: 20px 10px 10px;
   font-size: 0.8rem;
   text-align: center;
   line-height: 2;
-  background-color: #f6f6f6;
-  color: #5e3858;
+  background-color: $footer-background-color;
+  color: $footer-text-color;
 
   a {
-    @include links(#AC88AD, #AC88AD, #330d22, #ca9ab5);
+    @include links($links-icon-f, $links-icon-f, $links-icon-fh, #ca9ab5);
   }
 
   .phonenum {
-    color: #5e3858;
+    color: $footer-text-color;
   }
 
   .fab {
     font-size: 1.25rem;
-    color: $icon-purple;
+    color: $links-icon-f;
     margin: 0 10px 16px;
 
     &:hover {
-      color: #330d22;
+      color: $links-icon-fh;
     }
   }
 }

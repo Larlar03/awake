@@ -1,21 +1,19 @@
-/* COLORS */
 /* FOOTER */
-/* BACKGROUND */
-/* BUTTONS */
+/* HOME */
+/* BUTTON COLORS */
 /*background image */
 /*flexbox */
-/*links */
+/*link colors */
 /*primary button*/
 /*submit/success button */
-/* COLORS */
 /* FOOTER */
-/* BACKGROUND */
-/* BUTTONS */
+/* HOME */
+/* BUTTON COLORS */
 #mobnav {
   background-color: rgba(0, 0, 0, 0.15) !important; }
   #mobnav .navbar-brand {
     color: #fff;
-    margin-right: 0px; }
+    margin-right: 0; }
     #mobnav .navbar-brand img {
       width: 20%;
       margin-right: 20px; }
@@ -27,13 +25,9 @@
   #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
     color: #fff; }
 
-/* COLORS */
-/* FOOTER */
-/* BACKGROUND */
-/* BUTTONS */
 footer {
   width: 100%;
-  height: 174px;
+  height: 175px;
   margin: 0 auto;
   bottom: 0;
   padding: 20px 10px 10px;
@@ -59,26 +53,17 @@ footer {
     footer .fab:hover {
       color: #330d22; }
 
-body {
-  background-image: none;
-  background-color: #F8F9F9;
-  max-width: 640px;
-  min-width: 320px;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: stretch; }
-  body main .button-container {
-    margin: 25px auto 0;
-    width: 90%; }
-    body main .button-container #cta-button {
-      background-color: #E345A2;
-      border-color: #E345A2; }
-      body main .button-container #cta-button:hover {
-        background-color: #CF3F94;
-        border-color: #CF3F94; }
+body main .button-container {
+  margin: 30px auto;
+  width: 80%; }
+  body main .button-container #cta-button {
+    background-color: #E345A2;
+    border-color: #E345A2; }
+    body main .button-container #cta-button:hover {
+      background-color: #CF3F94;
+      border-color: #CF3F94; }
+body main .form-button {
+  /*margin: 0 auto;*/ }
   body main .form-button #send-button {
     background-color: #E345A2;
     border-color: #E345A2; }
@@ -89,36 +74,12 @@ body {
     width: 100%;
     margin: 0 auto; }
 
-/*TABLET PORTRAIT*/
-@media only screen and (min-width: 628px) and (max-width: 1024px) {
-  main .button-container {
-    padding: 30px 150px 10px 150px; }
-  main .form-button #send-button {
-    width: 100%;
-    margin: 0 auto; } }
-/*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-  main .button-container {
-    padding: 15px 20px 0 20px; }
-  main .form-button #send-button {
-    width: 100%;
-    margin: 0 auto; } }
-/* COLORS */
-/* FOOTER */
-/* BACKGROUND */
-/* BUTTONS */
-/*background image */
-/*flexbox */
-/*links */
-/*primary button*/
-/*submit/success button */
 body {
   max-width: 640px;
   min-width: 320px;
   height: auto;
   margin: 0 auto;
   overflow-x: hidden;
-  display: flex;
   flex-flow: column nowrap;
   display: flex;
   flex-flow: column nowrap;
@@ -172,7 +133,7 @@ body {
       body #testimonials .carousel-inner .carousel-item footer {
         background-color: white; }
   body #testimonials .carousel-indicators li {
-    background-color: #A0186C; }
+    background-color: #9f186c; }
 
 /* ================================================================= */
 /*TABLET PORTRAIT*/
@@ -187,11 +148,11 @@ body {
       font-size: 4rem; }
     body #testimonials .carousel-inner {
       height: 450px;
-      padding: 100px 0 80px 0; } }
+      padding: 100px 0 80px; } }
 /*TABLET LANDSCAPE*/
 @media only screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
   #testimonials .carousel-inner {
-    padding: 130px 0 80px 0; } }
+    padding: 130px 0 80px; } }
 /*DESKTOP*/
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
   body {
@@ -238,35 +199,42 @@ body {
     max-width: 100vw;
     margin: 0 auto; }
     html body {
-      max-width: 1520px;
+      max-width: 2500px;
       min-width: 1281px;
       background-image: url("../img/home.png");
       background-repeat: no-repeat;
-      background-size: top center;
+      background-size: cover;
       display: flex;
       flex-flow: column nowrap;
       justify-content: flex-start;
       align-items: stretch; }
-      html body main {
-        width: 100%; }
-        html body main #intro {
-          height: 620px;
-          display: flex;
-          flex-flow: row nowrap;
-          justify-content: flex-end;
-          align-items: center; }
-          html body main #intro #intro-overlay {
-            display: none;
-            width: 100%;
-            height: 620px;
-            background-color: rgba(0, 0, 0, 0.15); }
-            html body main #intro #intro-overlay #mob-intro {
-              display: none !important; }
-          html body main #intro #deskintro {
-            display: block;
-            width: 50%;
-            text-align: right;
-            padding: 20px 50px 20px 0;
-            margin: 0; } }
+      html body main #intro {
+        height: 670px;
+        background-color: rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center; }
+        html body main #intro #intro-overlay {
+          display: none; }
+        html body main #intro #deskintro {
+          display: block;
+          width: 50%;
+          margin: 0;
+          padding: 0 50px 0 0;
+          text-align: right;
+          line-height: 1.7;
+          font-size: 3.75rem;
+          font-weight: bold;
+          color: white; }
+      html body #testimonials .carousel-inner {
+        width: 100%;
+        min-height: 344px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center; }
+        html body #testimonials .carousel-inner .carousel-item {
+          width: 60%; } }
 
 /*# sourceMappingURL=main.css.map */

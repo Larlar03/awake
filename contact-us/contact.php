@@ -3,6 +3,19 @@
  *  CONFIGURE EVERYTHING HERE
  */
 
+// grab recaptcha library
+require_once "../recaptchalib.php";
+
+// your secret key
+$secret = "6LfmCpEUAAAAACrutIPL3x-nbTKPMDqIPQALpiUc";
+
+// empty response
+$response = null;
+
+// check secret key
+$reCaptcha = new ReCaptcha($secret);
+
+
 // an email address that will be in the From field of the email.
 $from = 'Awake Admin <admin@awakebirmingham.co.uk>';
 

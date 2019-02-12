@@ -77,6 +77,7 @@
           <p>Tremendous respect for the support you gave. So happy to report how amazingly different his education is. It’s like having a new child who has an amazing relationship with his teachers and continues to thrive and develop. I can only
             advise parents to not fear change a fresh start really does overcome educational obstacles.</p>
           <footer class="blockquote-footer">Tina</footer>
+        </blockquote>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -93,9 +94,9 @@
 
   <footer>
     <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
-    <p>Jalika: <a class="phonenum" href="tel:+447702018595">(+44) 7702 018595</a>   |   Imani: <a class="phonenum"  href="tel:+447877400646"</a>(+44) 7877 400646</p>
+    <p>Jalika: <a class="phonenum" href="tel:+447702018595" >(+44) 7702 018595</a>   |   Imani: <a class="phonenum" href="tel:+447877400646" </a>(+44) 7877 400646</p>
 
-    <a href="https://www.facebook.com/awa.ke.31"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.facebook.com/awa.ke.31"</a><i class="fab fa-facebook-square"></i></a>
 
     <a href="https://www.instagram.com/bhamawake/"><i class="fab fa-instagram"></i></a>
 

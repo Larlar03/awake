@@ -1,21 +1,19 @@
-/* COLORS */
 /* FOOTER */
-/* BACKGROUND */
-/* BUTTONS */
+/* HOME */
+/* BUTTON COLORS */
 /*background image */
 /*flexbox */
-/*links */
+/*link colors */
 /*primary button*/
 /*submit/success button */
-/* COLORS */
 /* FOOTER */
-/* BACKGROUND */
-/* BUTTONS */
+/* HOME */
+/* BUTTON COLORS */
 #mobnav {
   background-color: rgba(0, 0, 0, 0.15) !important; }
   #mobnav .navbar-brand {
     color: #fff;
-    margin-right: 0px; }
+    margin-right: 0; }
     #mobnav .navbar-brand img {
       width: 20%;
       margin-right: 20px; }
@@ -27,13 +25,9 @@
   #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
     color: #fff; }
 
-/* COLORS */
-/* FOOTER */
-/* BACKGROUND */
-/* BUTTONS */
 footer {
   width: 100%;
-  height: 174px;
+  height: 175px;
   margin: 0 auto;
   bottom: 0;
   padding: 20px 10px 10px;
@@ -59,26 +53,17 @@ footer {
     footer .fab:hover {
       color: #330d22; }
 
-body {
-  background-image: none;
-  background-color: #F8F9F9;
-  max-width: 640px;
-  min-width: 320px;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: stretch; }
-  body main .button-container {
-    margin: 25px auto 0;
-    width: 90%; }
-    body main .button-container #cta-button {
-      background-color: #E345A2;
-      border-color: #E345A2; }
-      body main .button-container #cta-button:hover {
-        background-color: #CF3F94;
-        border-color: #CF3F94; }
+body main .button-container {
+  margin: 30px auto;
+  width: 80%; }
+  body main .button-container #cta-button {
+    background-color: #E345A2;
+    border-color: #E345A2; }
+    body main .button-container #cta-button:hover {
+      background-color: #CF3F94;
+      border-color: #CF3F94; }
+body main .form-button {
+  /*margin: 0 auto;*/ }
   body main .form-button #send-button {
     background-color: #E345A2;
     border-color: #E345A2; }
@@ -89,22 +74,8 @@ body {
     width: 100%;
     margin: 0 auto; }
 
-/*TABLET PORTRAIT*/
-@media only screen and (min-width: 628px) and (max-width: 1024px) {
-  main .button-container {
-    padding: 30px 150px 10px 150px; }
-  main .form-button #send-button {
-    width: 100%;
-    margin: 0 auto; } }
-/*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-  main .button-container {
-    padding: 15px 20px 0 20px; }
-  main .form-button #send-button {
-    width: 100%;
-    margin: 0 auto; } }
 #form-container {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   margin: 0 auto; }
   #form-container .controls .form-control {
@@ -119,44 +90,22 @@ body {
       font-size: 0.8rem;
       padding-left: 5px; }
   #form-container .controls #submit-container {
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: center; }
+    width: 100%; }
 
-/* COLORS */
-/* FOOTER */
-/* BACKGROUND */
-/* BUTTONS */
-/*background image */
-/*flexbox */
-/*links */
-/*primary button*/
-/*submit/success button */
 body {
   background-image: none;
-  background-color: #fff;
+  background-color: white;
   max-width: 640px;
   min-width: 320px;
-  min-height: calc(100vh - 174px);
+  min-height: calc(100vh - 175px);
   margin: 0 auto;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: stretch; }
   body #mobnav {
-    background-color: rgba(159, 24, 108, 0.92) !important;
-    border-bottom: 1px solid #f6f6f6; }
-    body #mobnav .navbar-brand {
-      color: white; }
-    body #mobnav .navbar-toggler {
-      color: white;
-      border-color: rgba(0, 0, 0, 0); }
-      body #mobnav .navbar-toggler .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='straight' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
-    body #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
-      color: white; }
+    background-color: #9f186c !important;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05) !important; }
   body main {
     width: 100%;
     height: auto;
@@ -167,7 +116,7 @@ body {
       text-align: justify;
       text-justify: inter-word; }
       body main .p-content .p-text h1 {
-        color: #330d22;
+        color: #A0186C;
         font-size: 1.6rem;
         text-align: center;
         margin-bottom: 16px; }
@@ -177,7 +126,8 @@ body {
         margin: 0;
         padding: 0 25px; }
       body main .p-content .p-text .contactp {
-        margin: 12.8px 0; }
+        padding: 0;
+        margin-bottom: 30px; }
       body main .p-content .p-text img {
         max-width: 100%;
         padding: 25px 0;
@@ -219,22 +169,88 @@ body {
       body main .p-content img {
         margin: 0 auto; } }
 /*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 2500px) {
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
   body {
     max-width: 1280px;
     min-width: 1025px; }
     body #mobnav {
+      background-color: rgba(0, 0, 0, 0) !important; }
+      body #mobnav .navbar-brand {
+        color: #9f186c; }
+      body #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
+        color: #9f186c; }
+    body main {
+      width: 100%;
+      min-height: 768px;
+      padding: 0;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center; }
+      body main .p-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center; }
+        body main .p-content #who-left {
+          background-image: url("../img/who-we-are.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          z-index: -1; }
+        body main .p-content #what-left {
+          background-image: url("../img/what-we-do-1.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+        body main .p-content #contact-left {
+          background-image: url("../img/contact-us.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+        body main .p-content .p-left {
+          display: block;
+          width: 55%;
+          min-height: 80%;
+          margin-left: 60px;
+          flex: 1 1 50%; }
+        body main .p-content .p-text {
+          max-width: 45%;
+          height: 100%;
+          overflow-y: scroll;
+          flex: 1 1 50%;
+          padding: 60px;
+          margin: 0 auto; }
+          body main .p-content .p-text img {
+            display: none; }
+          body main .p-content .p-text h1 {
+            font-size: 1.9rem;
+            padding-bottom: 20px;
+            margin: 16px 0;
+            text-align: left;
+            border-bottom: 2px solid #A0186C; }
+          body main .p-content .p-text .paragraphs {
+            height: auto; }
+            body main .p-content .p-text .paragraphs p {
+              font-size: 1rem;
+              padding: 0 0 30px;
+              text-align: justify; }
+          body main .p-content .p-text .button-container {
+            margin: 0 auto; } }
+/*DESKTOP HI-RES*/
+@media only screen and (min-width: 1281px) and (max-width: 2500px) {
+  body {
+    max-width: 1281px;
+    min-width: 2500px; }
+    body #mobnav {
       background-color: rgba(0, 0, 0, 0) !important;
       border-bottom: 1px solid #f6f6f6; }
       body #mobnav .navbar-brand {
-        color: rgba(159, 24, 108, 0.92); }
-      body #mobnav .navbar-toggler {
-        color: rgba(159, 24, 108, 0.92);
-        border-color: rgba(0, 0, 0, 0); }
-        body #mobnav .navbar-toggler .navbar-toggler-icon {
-          background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(159, 24, 108)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+        color: #9f186c; }
       body #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
-        color: rgba(159, 24, 108, 0.92); }
+        color: #9f186c; }
     body main {
       width: 100%;
       min-height: 768px;
@@ -268,90 +284,32 @@ body {
         body main .p-content .p-left {
           display: block;
           width: 55%;
-          min-height: 100%;
+          min-height: 80%;
+          margin-left: 60px;
           flex: 1 1 50%; }
         body main .p-content .p-text {
-          max-width: 45%;
+          width: 45%;
+          max-width: 800px;
           height: 100%;
           overflow-y: scroll;
-          text-align: justify;
           flex: 1 1 50%;
-          padding: 60px 60px;
+          padding: 60px;
           margin: 0 auto; }
           body main .p-content .p-text img {
             display: none; }
           body main .p-content .p-text h1 {
             font-size: 1.9rem;
-            padding-bottom: 20px; }
+            padding-bottom: 20px;
+            margin: 16px 0;
+            text-align: left;
+            border-bottom: 2px solid #9f186c; }
           body main .p-content .p-text .paragraphs {
             height: auto; }
             body main .p-content .p-text .paragraphs p {
               font-size: 1rem;
-              padding: 0 0 30px 0; }
+              padding: 0 0 30px;
+              text-align: justify; }
           body main .p-content .p-text .button-container {
             margin: 0 auto; } }
-/*DESKTOP HI-RES
-@media only screen and (min-width: 1281px) and (max-width: 2500px) {
-
-  body {
-    min-width: 1281px;
-
-    main {
-      width: 95%;
-      height: 100%;
-      @include flex(flex, column nowrap, center, center);
-
-      .p-content {
-        width: 100%;
-        height: 100%;
-        @include flex(flex, row nowrap, space-between, center);
-
-        #who-left {
-          @include bg-img('../img/who-we-are.png', no-repeat, cover);
-          background-position: center;
-        }
-        #what-left {
-          @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
-          background-position: center;
-        }
-        #contact-left {
-          @include bg-img('../img/contact-us.png', no-repeat, cover);
-          background-position: center;
-        }
-
-        .p-left {
-          display: block;
-          width: 50%;
-          min-height: 100%;
-          flex: 1 1 50%;
-          padding-left: 20px;
-        }
-        .p-text {
-          max-width: 50%;
-          height: 487px;
-          overflow-y: scroll;
-          text-align: justify;
-          flex: 1 1 50%;
-          padding-left: 40px;
-          margin: 0 auto;
-
-          img {
-            display: none;
-          }
-
-          h1 {
-            font-size: 1.9rem;
-            padding-bottom: 20px;
-          }
-
-          p {
-            font-size: 1rem;
-            padding: 0;
-          }
-        }
-      }
-    }
-  }s
-}*/
 
 /*# sourceMappingURL=pages.css.map */

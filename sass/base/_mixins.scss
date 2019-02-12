@@ -13,7 +13,7 @@
   align-items: $a-items;
 }
 
-/*links */
+/*link colors */
 @mixin links($color, $vcolor, $hcolor, $acolor) {
   color: $color;
     &:visited { color: $vcolor;}
