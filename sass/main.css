@@ -12,20 +12,20 @@
 /* BACKGROUND */
 /* BUTTONS */
 #mobnav {
-  background-color: rgba(159, 24, 108, 0.92) !important; }
+  background-color: rgba(0, 0, 0, 0.15) !important; }
   #mobnav .navbar-brand {
-    color: white;
+    color: #fff;
     margin-right: 0px; }
     #mobnav .navbar-brand img {
       width: 20%;
       margin-right: 20px; }
   #mobnav .navbar-toggler {
-    color: white;
+    color: #fff;
     border-color: rgba(0, 0, 0, 0); }
     #mobnav .navbar-toggler .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='straight' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
   #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
-    color: white; }
+    color: #fff; }
 
 /* COLORS */
 /* FOOTER */
@@ -40,7 +40,7 @@ footer {
   font-size: 0.8rem;
   text-align: center;
   line-height: 2;
-  background-color: #F8F9F9;
+  background-color: #f6f6f6;
   color: #5e3858; }
   footer a {
     color: #AC88AD; }
