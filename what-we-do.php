@@ -51,12 +51,13 @@
         <div class="paragraphs">
         <p class="p-center">We support parents with issues to do with education including:<br></p>
 
-        <p style="text-align: center; line-height: 1.6;"><strong>Exclusions/Temporary exclusion</strong><br>
-          <strong>Children with special educational needs</strong><br>
-          <strong>School policy and procedure</strong><br>
-          <strong>Strategies for parents to tackle and address educational issues</strong><br>
-          <strong>Mediate between parents and schools</strong>
-        </p>
+        <ul style="text-align: left; line-height: 1.8; color: #9f186c;">
+          <li>Exclusions/Temporary exclusion</li>
+          <li>Children with special educational needs</li>
+          <li>School policy and procedure</</li>
+          <li>Strategies for parents to tackle and address educational issues</li>
+          <li>Mediate between parents and schools</li>
+        </ul>
 
         <img src="img/what-we-do-1.png" alt="children in class">
 

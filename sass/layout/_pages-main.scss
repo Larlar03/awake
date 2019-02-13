@@ -19,7 +19,8 @@ body {
     padding: 25px 0;
 
     .p-content {
-      width: 100%;
+      width: 80%;
+      margin: 0 auto;
       text-align: justify;
       text-justify: inter-word;
 
@@ -28,19 +29,18 @@ body {
           color: $h1-color;
           font-size: 1.6rem;
           text-align: center;
-          margin-bottom: 16px;
+          margin: 16px 0 30px 0;
         }
 
         p {
+          width: 100%;
           line-height: 1.5;
           font-size: 1rem;
-          margin: 0;
-          padding: 0 25px;
+          margin: 0 auto;
         }
 
-        .contactp {
-          padding: 0;
-          margin-bottom: 30px;
+        ul {
+          margin: 30px 0 0 0;
         }
 
         img {
@@ -82,6 +82,9 @@ body {
           p {
             font-size: 1rem;
             padding: 0;
+          }
+          ul {
+            margin: 20px 0 0 0;
           }
         }
       }
@@ -181,7 +184,7 @@ body {
             padding-bottom: 20px;
             margin: 16px 0;
             text-align: left;
-            border-bottom: 2px solid $h1-color;
+            border-bottom: 2px solid $secondary-color;
           }
 
           .paragraphs {
@@ -192,7 +195,15 @@ body {
               padding: 0 0 30px;
               text-align: justify;
             }
+
+            ul {
+              margin: 0 0 30px 0;
+            }
           }
+
+        .contactp {
+  padding: 0 0 20px;
+}
 
           .button-container {
             margin: 0 auto;
@@ -275,7 +286,7 @@ body {
             padding-bottom: 20px;
             margin: 16px 0;
             text-align: left;
-            border-bottom: 2px solid $primary-color;
+            border-bottom: 2px solid $secondary-color;
           }
 
           .paragraphs {
@@ -286,6 +297,10 @@ body {
               padding: 0 0 30px;
               text-align: justify;
             }
+          }
+
+          .contactp {
+            padding: 0 0 20px 0;
           }
 
           .button-container {
