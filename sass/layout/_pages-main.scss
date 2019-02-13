@@ -1,17 +1,15 @@
-@import "../base/variables";
-@import "../base/mixins";
-
 body {
   background-image: none;
   background-color: white;
   max-width: 640px;
   min-width: 320px;
-  min-height: calc(100vh - 174px);
+  min-height: calc(100vh - 175px);
   margin: 0 auto;
   @include flex(flex, column nowrap, flex-start, stretch);
 
   #mobnav {
     background-color: $primary-color !important;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05) !important;
   }
 
   main {
@@ -24,12 +22,10 @@ body {
       width: 100%;
       text-align: justify;
       text-justify: inter-word;
-      .p-left {
 
-      }
       .p-text {
         h1 {
-          color: #330d22;
+          color: $h1-color;
           font-size: 1.6rem;
           text-align: center;
           margin-bottom: 16px;
@@ -43,7 +39,8 @@ body {
         }
 
         .contactp {
-          margin: 12.8px 0;
+          padding: 0;
+          margin-bottom: 30px;
         }
 
         img {
@@ -57,10 +54,8 @@ body {
 }
 
 /* ================================================= */
-
 /*TABLET PORTRAIT*/
-@media only screen and (min-width: 628px) and (max-width: 1024px)  {
-
+@media only screen and (min-width: 628px) and (max-width: 1024px) {
   body {
     max-width: 1024px;
     min-width: 628px;
@@ -73,12 +68,12 @@ body {
         width: 100%;
         text-align: justify;
         text-justify: inter-word;
-        .p-left {
 
-        }
+        .p-left {}
+
         .p-text {
           h1 {
-            color: $primary-color;
+            color: $h1-color;
             font-size: 1.6rem;
             text-align: center;
             margin-bottom: 16px;
@@ -96,7 +91,7 @@ body {
 
 
 /*TABLET LANDSCAPE*/
-@media only screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape)  {
+@media only screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
   body {
     max-width: 1024px;
     min-width: 628px;
@@ -107,7 +102,7 @@ body {
       @include flex(flex, column nowrap, center, stretch);
 
       .p-content img {
-          margin: 0 auto;
+        margin: 0 auto;
       }
     }
   }
@@ -115,11 +110,118 @@ body {
 
 
 /*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 2500px) {
-
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
   body {
     max-width: 1280px;
     min-width: 1025px;
+
+    #mobnav {
+      background-color: rgba(0, 0, 0, 0) !important;
+
+      .navbar-brand {
+        color: $primary-color;
+      }
+
+      #navbarNavAltMarkup {
+        a.nav-item.nav-link.active {
+          color: $primary-color;
+        }
+      }
+    }
+
+    main {
+      width: 100%;
+      min-height: 768px;
+      padding: 0;
+      @include flex(flex, column nowrap, center, center);
+
+      .p-content {
+        width: 100%;
+        height: 100%;
+        @include flex(flex, row nowrap, space-between, center);
+
+        #who-left {
+          @include bg-img('../img/who-we-are.png', no-repeat, cover);
+          background-position: center;
+          z-index: -1;
+        }
+
+        #what-left {
+          @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
+          background-position: center;
+        }
+
+        #contact-left {
+          @include bg-img('../img/contact-us.png', no-repeat, cover);
+          background-position: center;
+        }
+
+        .p-left {
+          display: block;
+          width: 55%;
+          min-height: 80%;
+          margin-left: 60px;
+          flex: 1 1 50%;
+        }
+
+        .p-text {
+          max-width: 45%;
+          height: 100%;
+          overflow-y: scroll;
+          flex: 1 1 50%;
+          padding: 60px;
+          margin: 0 auto;
+
+          img {
+            display: none;
+          }
+
+          h1 {
+            font-size: 1.9rem;
+            padding-bottom: 20px;
+            margin: 16px 0;
+            text-align: left;
+            border-bottom: 2px solid $h1-color;
+          }
+
+          .paragraphs {
+            height: auto;
+
+            p {
+              font-size: 1rem;
+              padding: 0 0 30px;
+              text-align: justify;
+            }
+          }
+
+          .button-container {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+/*DESKTOP HI-RES*/
+@media only screen and (min-width: 1281px) and (max-width: 2500px) {
+  body {
+    max-width: 1281px;
+    min-width: 2500px;
+
+    #mobnav {
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-bottom: 1px solid #f6f6f6;
+
+      .navbar-brand {
+        color: $primary-color;
+      }
+
+      #navbarNavAltMarkup {
+        a.nav-item.nav-link.active {
+          color: $primary-color;
+        }
+      }
+    }
 
     main {
       width: 100%;
@@ -136,10 +238,12 @@ body {
           @include bg-img('../img/who-we-are.png', no-repeat, cover);
           background-position: center;
         }
+
         #what-left {
           @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
           background-position: center;
         }
+
         #contact-left {
           @include bg-img('../img/contact-us.png', no-repeat, cover);
           background-position: center;
@@ -147,17 +251,19 @@ body {
 
         .p-left {
           display: block;
-          width: 50%;
-          min-height: 100%;
+          width: 55%;
+          min-height: 80%;
+          margin-left: 60px;
           flex: 1 1 50%;
         }
+
         .p-text {
-          max-width: 50%;
+          width: 45%;
+          max-width: 800px;
           height: 100%;
           overflow-y: scroll;
-          text-align: justify;
           flex: 1 1 50%;
-          padding: 60px 60px;
+          padding: 60px;
           margin: 0 auto;
 
           img {
@@ -167,14 +273,21 @@ body {
           h1 {
             font-size: 1.9rem;
             padding-bottom: 20px;
+            margin: 16px 0;
+            text-align: left;
+            border-bottom: 2px solid $primary-color;
           }
+
           .paragraphs {
             height: auto;
+
             p {
               font-size: 1rem;
-              padding: 0 0 30px 0;
+              padding: 0 0 30px;
+              text-align: justify;
             }
           }
+
           .button-container {
             margin: 0 auto;
           }
@@ -183,68 +296,3 @@ body {
     }
   }
 }
-
-
-/*DESKTOP HI-RES
-@media only screen and (min-width: 1281px) and (max-width: 2500px) {
-
-  body {
-    min-width: 1281px;
-
-    main {
-      width: 95%;
-      height: 100%;
-      @include flex(flex, column nowrap, center, center);
-
-      .p-content {
-        width: 100%;
-        height: 100%;
-        @include flex(flex, row nowrap, space-between, center);
-
-        #who-left {
-          @include bg-img('../img/who-we-are.png', no-repeat, cover);
-          background-position: center;
-        }
-        #what-left {
-          @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
-          background-position: center;
-        }
-        #contact-left {
-          @include bg-img('../img/contact-us.png', no-repeat, cover);
-          background-position: center;
-        }
-
-        .p-left {
-          display: block;
-          width: 50%;
-          min-height: 100%;
-          flex: 1 1 50%;
-          padding-left: 20px;
-        }
-        .p-text {
-          max-width: 50%;
-          height: 487px;
-          overflow-y: scroll;
-          text-align: justify;
-          flex: 1 1 50%;
-          padding-left: 40px;
-          margin: 0 auto;
-
-          img {
-            display: none;
-          }
-
-          h1 {
-            font-size: 1.9rem;
-            padding-bottom: 20px;
-          }
-
-          p {
-            font-size: 1rem;
-            padding: 0;
-          }
-        }
-      }
-    }
-  }s
-}*/

@@ -1,5 +1,5 @@
 #form-container {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
 
@@ -22,9 +22,9 @@
         }
       }
     }
+
     #submit-container {
       width: 100%;
-      @include flex(flex, column nowrap, flex-start, center);
-      }
     }
   }
+}
