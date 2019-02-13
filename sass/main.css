@@ -1,6 +1,8 @@
 /* FOOTER */
 /* HOME */
 /* BUTTON COLORS */
+/*$button-primary: #E345A2;
+$button-hover: #CF3F94;*/
 /*background image */
 /*flexbox */
 /*link colors */
@@ -9,6 +11,8 @@
 /* FOOTER */
 /* HOME */
 /* BUTTON COLORS */
+/*$button-primary: #E345A2;
+$button-hover: #CF3F94;*/
 #mobnav {
   background-color: rgba(0, 0, 0, 0.15) !important; }
   #mobnav .navbar-brand {
