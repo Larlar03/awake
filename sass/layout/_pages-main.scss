@@ -69,8 +69,6 @@ body {
         text-align: justify;
         text-justify: inter-word;
 
-        .p-left {}
-
         .p-text {
           h1 {
             color: $h1-color;
@@ -146,17 +144,19 @@ body {
         #who-left {
           @include bg-img('../img/who-we-are.png', no-repeat, cover);
           background-position: center;
-          z-index: -1;
+          min-height: 644px;
         }
 
         #what-left {
           @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
           background-position: center;
+          min-height: 644px;
         }
 
         #contact-left {
           @include bg-img('../img/contact-us.png', no-repeat, cover);
           background-position: center;
+          min-height: 644px;
         }
 
         .p-left {

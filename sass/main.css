@@ -91,7 +91,10 @@ body {
   align-items: stretch;
   background-image: url("../img/home-mob.png");
   background-repeat: no-repeat;
-  background-size: auto; }
+  background-size: auto;
+  -o-background-size: auto;
+  -moz-background-size: auto;
+  -webkit-background-size: auto; }
   body #deskintro {
     display: none; }
   body header {
@@ -147,7 +150,10 @@ body {
     min-width: 628px;
     background-image: url("../img/home.png");
     background-repeat: no-repeat;
-    background-size: auto; }
+    background-size: auto;
+    -o-background-size: auto;
+    -moz-background-size: auto;
+    -webkit-background-size: auto; }
     body main #intro #intro-overlay h1 {
       font-size: 4rem; }
     body #testimonials .carousel-inner {
@@ -165,6 +171,9 @@ body {
     background-image: url("../img/home.png");
     background-repeat: no-repeat;
     background-size: auto;
+    -o-background-size: auto;
+    -moz-background-size: auto;
+    -webkit-background-size: auto;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -208,6 +217,9 @@ body {
       background-image: url("../img/home.png");
       background-repeat: no-repeat;
       background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
       display: flex;
       flex-flow: column nowrap;
       justify-content: flex-start;

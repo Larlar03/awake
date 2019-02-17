@@ -204,18 +204,29 @@ body {
           background-image: url("../img/who-we-are.png");
           background-repeat: no-repeat;
           background-size: cover;
+          -o-background-size: cover;
+          -moz-background-size: cover;
+          -webkit-background-size: cover;
           background-position: center;
-          z-index: -1; }
+          min-height: 644px; }
         body main .p-content #what-left {
           background-image: url("../img/what-we-do-1.png");
           background-repeat: no-repeat;
           background-size: cover;
-          background-position: center; }
+          -o-background-size: cover;
+          -moz-background-size: cover;
+          -webkit-background-size: cover;
+          background-position: center;
+          min-height: 644px; }
         body main .p-content #contact-left {
           background-image: url("../img/contact-us.png");
           background-repeat: no-repeat;
           background-size: cover;
-          background-position: center; }
+          -o-background-size: cover;
+          -moz-background-size: cover;
+          -webkit-background-size: cover;
+          background-position: center;
+          min-height: 644px; }
         body main .p-content .p-left {
           display: block;
           width: 55%;
@@ -280,16 +291,25 @@ body {
           background-image: url("../img/who-we-are.png");
           background-repeat: no-repeat;
           background-size: cover;
+          -o-background-size: cover;
+          -moz-background-size: cover;
+          -webkit-background-size: cover;
           background-position: center; }
         body main .p-content #what-left {
           background-image: url("../img/what-we-do-1.png");
           background-repeat: no-repeat;
           background-size: cover;
+          -o-background-size: cover;
+          -moz-background-size: cover;
+          -webkit-background-size: cover;
           background-position: center; }
         body main .p-content #contact-left {
           background-image: url("../img/contact-us.png");
           background-repeat: no-repeat;
           background-size: cover;
+          -o-background-size: cover;
+          -moz-background-size: cover;
+          -webkit-background-size: cover;
           background-position: center; }
         body main .p-content .p-left {
           display: block;
@@ -298,7 +318,7 @@ body {
           margin-left: 60px;
           flex: 1 1 50%; }
         body main .p-content .p-text {
-          width: 45%;
+          min-width: 45%;
           max-width: 800px;
           height: 100%;
           overflow-y: scroll;
