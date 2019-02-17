@@ -102,12 +102,15 @@
               </div>
             </div>
             <div class="row">
-              <div class="col" id="submit-container">
-              <div id="recaptcha" class="g-recaptcha" data-sitekey="6LfmCpEUAAAAAIMoxnb6CYtG32jOXUJhmxR0B-pG" data-callback="enableBtn" style="width: 304px; margin: 0 auto; padding: 15px 0 20px 0;"></div><br>
-              <div class="col form-button">
+              <div class="col form-group" id="recaptcha-container">
+              <div id="recaptcha" class="g-recaptcha" data-sitekey="6LfmCpEUAAAAAIMoxnb6CYtG32jOXUJhmxR0B-pG" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback" style="width: 304px; margin: 0 auto; padding: 15px 0 20px 0;"></div>
+              <input class="form-control d-none" data-recaptcha="true" required data-error="reCaptcha is required.">
+              <div class="help-block with-errors"></div>
+            </div>
+            <br>
+            <div class="col form-button">
                 <input type="submit" id="send-button" class="btn btn-success btn-send" value="Send message">
               </div>
-            </div>
             </div>
         </div>
         </form>
