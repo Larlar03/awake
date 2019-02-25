@@ -50,6 +50,7 @@ body {
   }
 
   #testimonials {
+    padding-bottom: 50px;
     .carousel-inner {
       width: 100%;
       min-height: 350px;
@@ -67,6 +68,7 @@ body {
         }
 
         footer {
+          height: auto;
           background-color: white;
         }
       }
@@ -112,7 +114,7 @@ body {
   }
 }
 /*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1025px) and (max-width: 2000px) {
   body {
     max-width: 1280px;
     min-width: 1025px;
@@ -151,56 +153,6 @@ body {
 
         .carousel-item {
           width: 60%;
-        }
-      }
-    }
-  }
-}
-/*DESKTOP HI-RES*/
-@media only screen and (min-width: 1281px) and (max-width: 2500px) {
-  html {
-    max-width: 100vw;
-    margin: 0 auto;
-
-    body {
-      max-width: 2500px;
-      min-width: 1281px;
-      @include bg-img("../img/home.png", no-repeat, cover);
-      @include flex(flex, column nowrap, flex-start, stretch);
-
-      main {
-        #intro {
-          height: 670px;
-          background-color: $home-bgoverlay;
-          @include flex(flex, row nowrap, flex-end, center);
-
-          #intro-overlay {
-            display: none;
-          }
-
-          #deskintro {
-            display: block;
-            width: 50%;
-            margin: 0;
-            padding: 0 50px 0 0;
-            text-align: right;
-            line-height: 1.7;
-            font-size: 3.75rem;
-            font-weight: bold;
-            color: white;
-          }
-        }
-      }
-
-      #testimonials {
-        .carousel-inner {
-          width: 100%;
-          min-height: 344px;
-          @include flex(flex, column nowrap, center, center);
-
-          .carousel-item {
-            width: 60%;
-          }
         }
       }
     }

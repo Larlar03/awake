@@ -3,18 +3,18 @@ body {
   background-color: white;
   max-width: 640px;
   min-width: 320px;
-  min-height: calc(100vh - 175px);
   margin: 0 auto;
   @include flex(flex, column nowrap, flex-start, stretch);
 
   #mobnav {
-    background-color: $primary-color !important;
-    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05) !important;
+    background-color: #fff !important;
+    border-bottom: 1px solid #F7F7F7;
+    /*box-shadow: 0 4px 12px 0 rgba(0,0,0,.03) !important;*/
   }
 
   main {
     width: 100%;
-    height: auto;
+    min-height: calc(100vh - 257px);
     margin: 0 auto;
     padding: 25px 0;
 
@@ -26,7 +26,7 @@ body {
 
       .p-text {
         h1 {
-          color: $h1-color;
+          color: $primary-color;
           font-size: 1.6rem;
           text-align: center;
           margin: 16px 0 30px 0;
@@ -34,7 +34,7 @@ body {
 
         p {
           width: 100%;
-          line-height: 1.5;
+          line-height: 1.58;
           font-size: 1rem;
           margin: 0 auto;
         }
@@ -71,10 +71,10 @@ body {
 
         .p-text {
           h1 {
-            color: $h1-color;
+            color: $primary-color;
             font-size: 1.6rem;
             text-align: center;
-            margin-bottom: 16px;
+            margin: 16px 0 30px 0;
           }
 
           p {
@@ -111,7 +111,7 @@ body {
 
 
 /*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1025px) and (max-width: 2000px) {
   body {
     max-width: 1280px;
     min-width: 1025px;
@@ -132,13 +132,14 @@ body {
 
     main {
       width: 100%;
-      min-height: 768px;
+      min-height: calc(100vh - 276px);
       padding: 0;
       @include flex(flex, column nowrap, center, center);
 
       .p-content {
-        width: 100%;
+        width: 95%;
         height: 100%;
+        margin: 20px auto;
         @include flex(flex, row nowrap, space-between, center);
 
         #who-left {
@@ -184,7 +185,7 @@ body {
             padding-bottom: 20px;
             margin: 16px 0;
             text-align: left;
-            border-bottom: 2px solid $secondary-color;
+            border-bottom: 2px solid $primary-color;
           }
 
           .paragraphs {
@@ -204,104 +205,6 @@ body {
         .contactp {
   padding: 0 0 20px;
 }
-
-          .button-container {
-            margin: 0 auto;
-          }
-        }
-      }
-    }
-  }
-}
-/*DESKTOP HI-RES*/
-@media only screen and (min-width: 1281px) and (max-width: 2500px) {
-  body {
-    max-width: 1281px;
-    min-width: 2500px;
-
-    #mobnav {
-      background-color: rgba(0, 0, 0, 0) !important;
-      border-bottom: 1px solid #f6f6f6;
-
-      .navbar-brand {
-        color: $primary-color;
-      }
-
-      #navbarNavAltMarkup {
-        a.nav-item.nav-link.active {
-          color: $primary-color;
-        }
-      }
-    }
-
-    main {
-      width: 100%;
-      min-height: 768px;
-      padding: 0;
-      @include flex(flex, column nowrap, center, center);
-
-      .p-content {
-        width: 100%;
-        height: 100%;
-        @include flex(flex, row nowrap, space-between, center);
-
-        #who-left {
-          @include bg-img('../img/who-we-are.png', no-repeat, cover);
-          background-position: center;
-        }
-
-        #what-left {
-          @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
-          background-position: center;
-        }
-
-        #contact-left {
-          @include bg-img('../img/contact-us.png', no-repeat, cover);
-          background-position: center;
-        }
-
-        .p-left {
-          display: block;
-          width: 55%;
-          min-height: 80%;
-          margin-left: 60px;
-          flex: 1 1 50%;
-        }
-
-        .p-text {
-          min-width: 45%;
-          max-width: 800px;
-          height: 100%;
-          overflow-y: scroll;
-          flex: 1 1 50%;
-          padding: 60px;
-          margin: 0 auto;
-
-          img {
-            display: none;
-          }
-
-          h1 {
-            font-size: 1.9rem;
-            padding-bottom: 20px;
-            margin: 16px 0;
-            text-align: left;
-            border-bottom: 2px solid $secondary-color;
-          }
-
-          .paragraphs {
-            height: auto;
-
-            p {
-              font-size: 1rem;
-              padding: 0 0 30px;
-              text-align: justify;
-            }
-          }
-
-          .contactp {
-            padding: 0 0 20px 0;
-          }
 
           .button-container {
             margin: 0 auto;

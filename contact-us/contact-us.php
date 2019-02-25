@@ -122,18 +122,31 @@
 
 
 
-    <footer>
+  <footer class="row">
+    <div class="col-12 col-md-12 col-lg-12">
       <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
-      <p>Jalika: <a class="phonenum" href="tel:+447702018595" >(+44) 7702 018595</a>   |   Imani: <a class="phonenum" href="tel:+447877400646" </a>(+44) 7877 400646</p>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 contact-links jalika">
+      Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 contact-links">
+      Imani: <a href="tel:+44787400646">(+44) 7874 00646</a>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
+      Shennice:<a href="tel:+447999731982">(+44) 7999 731982</a>
+    </div>
+    <div class="col-12">
+      <a href="https://www.facebook.com/awa.ke.31" target="_blank" </a> <i class="fab fa-facebook-square"></i></a>
 
-      <a href="https://www.facebook.com/awa.ke.31"</a><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/bhamawake/" target="_blank"><i class="fab fa-instagram"></i></a>
 
-      <a href="https://www.instagram.com/bhamawake/"><i class="fab fa-instagram"></i></a>
-
-        <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174"><i class="fab fa-linkedin"></i></a>
-
-      <p>&copy; <?php echo date("Y");?> Awake</p>
-    </footer>
+      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="col-12">
+      <p>&copy;
+        <?php echo date("Y");?> Awake</p>
+    </div>
+  </footer>
 
 
   <!--Bootstrap JS-->
