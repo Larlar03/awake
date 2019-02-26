@@ -7,11 +7,8 @@ body {
   @include flex(flex, column nowrap, flex-start, stretch);
 
   #mobnav {
-    background-color: #fff !important;
-    border-bottom: 1px solid #F7F7F7;
-    /*box-shadow: 0 4px 12px 0 rgba(0,0,0,.03) !important;*/
+    background-color: $navbar-pages-color !important;
   }
-
   main {
     width: 100%;
     min-height: calc(100vh - 257px);
@@ -111,13 +108,15 @@ body {
 
 
 /*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 2000px) {
+@media only screen and (min-width: 1025px) and (max-width: 2500px) {
   body {
-    max-width: 1280px;
+    max-width: 2500px;
     min-width: 1025px;
 
     #mobnav {
       background-color: rgba(0, 0, 0, 0) !important;
+      border-bottom: 1px solid #F7F7F7;
+       /*box-shadow: 0 4px 12px 0 rgba(0,0,0,.03) !important;*/
 
       .navbar-brand {
         color: $primary-color;
@@ -143,19 +142,19 @@ body {
         @include flex(flex, row nowrap, space-between, center);
 
         #who-left {
-          @include bg-img('../img/who-we-are.png', no-repeat, cover);
+          @include bg-img('../img/who-we-are.jpg', no-repeat, cover);
           background-position: center;
           min-height: 644px;
         }
 
         #what-left {
-          @include bg-img('../img/what-we-do-1.png', no-repeat, cover);
+          @include bg-img('../img/what-we-do-1.jpg', no-repeat, cover);
           background-position: center;
           min-height: 644px;
         }
 
         #contact-left {
-          @include bg-img('../img/contact-us.png', no-repeat, cover);
+          @include bg-img('../img/contact-us.jpg', no-repeat, cover);
           background-position: center;
           min-height: 644px;
         }
@@ -171,7 +170,6 @@ body {
         .p-text {
           max-width: 45%;
           height: 100%;
-          overflow-y: scroll;
           flex: 1 1 50%;
           padding: 60px;
           margin: 0 auto;

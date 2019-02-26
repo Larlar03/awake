@@ -1,8 +1,10 @@
-@import "../base/variables";
 
 #mobnav {
-  background-color: $home-bgoverlay !important;
-  height: 82px;
+  background-color: $navbar-home-color !important;
+
+  .nav-link {
+    @include links(#212121, #212121, $primary-color, #fff)
+  }
 
   .navbar-brand {
     color: $primary-color;
@@ -25,7 +27,41 @@
 
   #navbarNavAltMarkup {
     a.nav-item.nav-link.active {
-      color: #fff;
+      color: $navbar-active-link;
+    }
+  }
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 2500px) {
+  #mobnav {
+    background-color: $home-bgoverlay !important;
+    height: 82px;
+    width: 100vw;
+  
+    .navbar-brand {
+      color: $primary-color;
+      margin-right: 0;
+  
+      img {
+        width: 20%;
+        margin-right: 20px;
+      }
+    }
+  
+    .navbar-toggler {
+      color: $primary-color;
+      border-color: rgba(0, 0, 0, 0);
+  
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(170,7,107)' stroke-width='3' stroke-linecap='straight' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+    }
+  
+    #navbarNavAltMarkup {
+      a.nav-item.nav-link.active {
+        color: #fff;
+      }
     }
   }
 }

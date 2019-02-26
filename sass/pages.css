@@ -1,6 +1,4 @@
-/*$primary-color: #9f186c;
-$secondary-color: #A0186C;
-$h1-color: #696969;*/
+/* NAVBAR*/
 /* FOOTER */
 /* HOME */
 /* BUTTON COLORS */
@@ -18,24 +16,16 @@ $links-icon-fh: #330d22;*
 /*link colors */
 /*primary button*/
 /*submit/success button */
-/*$primary-color: #9f186c;
-$secondary-color: #A0186C;
-$h1-color: #696969;*/
-/* FOOTER */
-/* HOME */
-/* BUTTON COLORS */
-/*$button-primary: #E345A2;
-$button-hover: #CF3F94;*/
-/*$primary-color: #9f186c;
-$secondary-color: #A0186C;
-$h1-color: #696969;
-$text-color: #D1D1D1;
-$links-icon-f: #DE0D92;
-$links-icon-fh: #330d22;*
-#61045F #AA076B*/
 #mobnav {
-  background-color: rgba(0, 0, 0, 0.15) !important;
-  height: 82px; }
+  background-color: rgba(0, 0, 0, 0.25) !important; }
+  #mobnav .nav-link {
+    color: #212121; }
+    #mobnav .nav-link:visited {
+      color: #212121; }
+    #mobnav .nav-link:hover {
+      color: #AA076B; }
+    #mobnav .nav-link:active {
+      color: #fff; }
   #mobnav .navbar-brand {
     color: #AA076B;
     margin-right: 0; }
@@ -48,9 +38,29 @@ $links-icon-fh: #330d22;*
     #mobnav .navbar-toggler .navbar-toggler-icon {
       background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(170,7,107)' stroke-width='3' stroke-linecap='straight' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
   #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
-    color: #fff; }
+    color: #93025C; }
 
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 2500px) {
+  #mobnav {
+    background-color: rgba(0, 0, 0, 0.15) !important;
+    height: 82px;
+    width: 100vw; }
+    #mobnav .navbar-brand {
+      color: #AA076B;
+      margin-right: 0; }
+      #mobnav .navbar-brand img {
+        width: 20%;
+        margin-right: 20px; }
+    #mobnav .navbar-toggler {
+      color: #AA076B;
+      border-color: rgba(0, 0, 0, 0); }
+      #mobnav .navbar-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(170,7,107)' stroke-width='3' stroke-linecap='straight' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+    #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
+      color: #fff; } }
 footer {
+  width: 100vw;
   min-height: 245px;
   margin: 0 auto;
   padding: 20px 10px 10px 10px;
@@ -165,9 +175,7 @@ body {
   justify-content: flex-start;
   align-items: stretch; }
   body #mobnav {
-    background-color: #fff !important;
-    border-bottom: 1px solid #F7F7F7;
-    /*box-shadow: 0 4px 12px 0 rgba(0,0,0,.03) !important;*/ }
+    background-color: #f6f6f6 !important; }
   body main {
     width: 100%;
     min-height: calc(100vh - 257px);
@@ -233,12 +241,14 @@ body {
       body main .p-content img {
         margin: 0 auto; } }
 /*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 2000px) {
+@media only screen and (min-width: 1025px) and (max-width: 2500px) {
   body {
-    max-width: 1280px;
+    max-width: 2500px;
     min-width: 1025px; }
     body #mobnav {
-      background-color: rgba(0, 0, 0, 0) !important; }
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-bottom: 1px solid #F7F7F7;
+      /*box-shadow: 0 4px 12px 0 rgba(0,0,0,.03) !important;*/ }
       body #mobnav .navbar-brand {
         color: #AA076B; }
       body #mobnav #navbarNavAltMarkup a.nav-item.nav-link.active {
@@ -260,7 +270,7 @@ body {
         justify-content: space-between;
         align-items: center; }
         body main .p-content #who-left {
-          background-image: url("../img/who-we-are.png");
+          background-image: url("../img/who-we-are.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           -o-background-size: cover;
@@ -269,7 +279,7 @@ body {
           background-position: center;
           min-height: 644px; }
         body main .p-content #what-left {
-          background-image: url("../img/what-we-do-1.png");
+          background-image: url("../img/what-we-do-1.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           -o-background-size: cover;
@@ -278,7 +288,7 @@ body {
           background-position: center;
           min-height: 644px; }
         body main .p-content #contact-left {
-          background-image: url("../img/contact-us.png");
+          background-image: url("../img/contact-us.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           -o-background-size: cover;
@@ -295,7 +305,6 @@ body {
         body main .p-content .p-text {
           max-width: 45%;
           height: 100%;
-          overflow-y: scroll;
           flex: 1 1 50%;
           padding: 60px;
           margin: 0 auto; }
