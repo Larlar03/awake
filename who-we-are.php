@@ -51,7 +51,7 @@
         <div class="paragraphs">
         <p>The AWAKE team consists of Jalika and Imani who are qualified and registered social workers who are professionals from a safeguarding, probation and educational background with combined experience of over 30 years.</p>
 
-        <img src="img/who-we-are.png" alt="woman and girl">
+        <img src="img/who-we-are.jpg" alt="woman and girl">
 
         <p>
           Our work is about providing parents and children with the preventative measures needed before it gets too late. We can define a child’s future if the right decision is made and if parents act quickly. Referrals to Awake Bham have mainly

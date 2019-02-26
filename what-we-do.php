@@ -49,17 +49,17 @@
       <div class="p-text">
         <h1>What We Do</h1>
         <div class="paragraphs">
-        <p class="p-center">We support parents with issues to do with education including:<br></p>
+        <span style="text-align: center;"><p>We support parents with issues to do with education including:<br></p>
 
-        <ul style="text-align: left; line-height: 1.8; color: #AA076B;">
+        <ul style="line-height: 1.8; color: #AA076B; list-style: none; font-weight: 500;">
           <li>Exclusions/Temporary exclusion</li>
           <li>Children with special educational needs</li>
           <li>School policy and procedure</</li>
           <li>Strategies for parents to tackle and address educational issues</li>
           <li>Mediate between parents and schools</li>
-        </ul>
+        </ul></span>
 
-        <img src="img/what-we-do-1.png" alt="children in class">
+        <img src="img/what-we-do-1.jpg" alt="children in class">
 
         <p>
           The primary goal of real education is not to deliver facts but to guide students to the truths that will allow them to take responsibility for their lives. Parents need to be mindful of their approach when dealing with schools and to

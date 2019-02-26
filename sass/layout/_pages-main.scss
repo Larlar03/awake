@@ -144,19 +144,19 @@ body {
         #who-left {
           @include bg-img('../img/who-we-are.jpg', no-repeat, cover);
           background-position: center;
-          min-height: 644px;
+          min-height: 760px;
         }
 
         #what-left {
           @include bg-img('../img/what-we-do-1.jpg', no-repeat, cover);
           background-position: center;
-          min-height: 644px;
+          min-height: 760px;
         }
 
         #contact-left {
           @include bg-img('../img/contact-us.jpg', no-repeat, cover);
           background-position: center;
-          min-height: 644px;
+          min-height: 760px;
         }
 
         .p-left {
@@ -169,8 +169,9 @@ body {
 
         .p-text {
           max-width: 45%;
-          height: 100%;
-          flex: 1 1 50%;
+          height: auto;
+          align-items: center;
+          flex: 1 1 45%;
           padding: 60px;
           margin: 0 auto;
 

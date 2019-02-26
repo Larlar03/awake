@@ -52,7 +52,7 @@
         <h1>Contact Us</h1>
         <p class="contactp">Don’t leave it too late to seek advice or support from Jalika and Imani. We will get back to you as soon as possible.</p>
 
-        <img class="p-img" src="../img/contact-us.png" alt="boy with his hand in the air">
+        <img class="p-img" src="../img/contact-us.jpg" alt="boy with his hand in the air">
 
         <!-- Contact Form-->
         <div id="form-container">

@@ -1,6 +1,7 @@
 
 #mobnav {
   background-color: $navbar-home-color !important;
+  padding: 20px;
 
   .nav-link {
     @include links(#212121, #212121, $primary-color, #fff)

@@ -17,7 +17,8 @@ $links-icon-fh: #330d22;*
 /*primary button*/
 /*submit/success button */
 #mobnav {
-  background-color: rgba(0, 0, 0, 0.25) !important; }
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  padding: 20px; }
   #mobnav .nav-link {
     color: #212121; }
     #mobnav .nav-link:visited {
@@ -201,8 +202,10 @@ body {
         body #testimonials .carousel-inner .carousel-item .blockquote {
           font-size: 1rem; }
         body #testimonials .carousel-inner .carousel-item footer {
+          width: 100%;
           height: auto;
-          background-color: white; }
+          background-color: white;
+          text-align: center; }
     body #testimonials .carousel-indicators li {
       background-color: #AA076B; }
 

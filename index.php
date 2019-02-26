@@ -84,7 +84,7 @@
                 is. It’s like having a new child who has an amazing relationship with his teachers and continues to
                 thrive and develop. I can only
                 advise parents to not fear change a fresh start really does overcome educational obstacles.</p>
-              <footer class="blockquote-footer">Tina</footer>
+              <footer id="bq-footer" class="blockquote-footer">Tina</footer>
             </blockquote>
           </div>
         </div>
