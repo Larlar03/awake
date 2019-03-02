@@ -111,7 +111,7 @@
       Imani: <a href="tel:+44787400646">(+44) 7874 00646</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
-      Shennice:<a href="tel:+447999731982">(+44) 7999 731982</a>
+      Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
     </div>
     <div class="col-12">
       <a href="https://www.facebook.com/awa.ke.31" target="_blank" </a> <i class="fab fa-facebook-square"></i></a>
