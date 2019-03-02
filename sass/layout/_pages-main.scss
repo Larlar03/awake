@@ -9,6 +9,7 @@ body {
   #mobnav {
     background-color: $navbar-pages-color !important;
   }
+
   main {
     width: 100%;
     min-height: calc(100vh - 257px);
@@ -22,12 +23,16 @@ body {
       text-justify: inter-word;
 
       .p-text {
-        -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-        -moz-animation: fadein 3s; /* Firefox < 16 */
-         -ms-animation: fadein 3s; /* Internet Explorer */
-          -o-animation: fadein 3s; /* Opera < 12.1 */
-             animation: fadein 3s;
-      
+        -webkit-animation: fadein 3s;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 3s;
+        /* Firefox < 16 */
+        -ms-animation: fadein 3s;
+        /* Internet Explorer */
+        -o-animation: fadein 3s;
+        /* Opera < 12.1 */
+        animation: fadein 3s;
+
         h1 {
           color: $primary-color;
           font-size: 1.6rem;
@@ -42,8 +47,15 @@ body {
           margin: 0 auto;
         }
 
-        ul {
-          margin: 30px 0 0 0;
+        .issues-list {
+          width: 100%;
+          margin: 0 auto !important;
+          text-align: center;
+
+          ul {
+            padding: 0;
+            margin: 0 auto;
+          }
         }
 
         img {
@@ -84,6 +96,7 @@ body {
             font-size: 1rem;
             padding: 0;
           }
+
           ul {
             margin: 20px 0 0 0;
           }
@@ -122,7 +135,7 @@ body {
     #mobnav {
       background-color: rgba(0, 0, 0, 0) !important;
       border-bottom: 1px solid #F7F7F7;
-       /*box-shadow: 0 4px 12px 0 rgba(0,0,0,.03) !important;*/
+      /*box-shadow: 0 4px 12px 0 rgba(0,0,0,.03) !important;*/
 
       .navbar-brand {
         color: $primary-color;
@@ -208,9 +221,9 @@ body {
             }
           }
 
-        .contactp {
-  padding: 0 0 20px;
-}
+          .contactp {
+            padding: 0 0 20px;
+          }
 
           .button-container {
             margin: 0 auto;

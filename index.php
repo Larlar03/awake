@@ -56,43 +56,43 @@
 
     <!-- TESTIMONIALS -->
     <section id="testimonials">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <p>We have had the toughest time but we have hung in there together. We have laughed and we have cried.
-                He nearly lost out on three very valuable school experiences, but he did get to go on a trip, he got
-                brilliant SAT results and he got to go to prom. No matter how dark your days get remember if you make
-                it through the night the sun will always rise again in the morning. Thank you Awake.</p>
-      <small>Myrah</small>
-    </div>
-    <div class="carousel-item">
-      <p>Thank you Awake for giving me that confidence. When I came to see you I was a bit wobbly.</p>
-      <br>
-      <small>Anon</small>
-    </div>
-    <div class="carousel-item">
-      <p>Tremendous respect for the support you gave. So happy to report how amazingly different his education
-                is. It’s like having a new child who has an amazing relationship with his teachers and continues to
-                thrive and develop. I can only
-                advise parents to not fear change a fresh start really does overcome educational obstacles.</p>
-                <br>
-      <small>Tina</small>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p>We have had the toughest time but we have hung in there together. We have laughed and we have cried.
+              He nearly lost out on three very valuable school experiences, but he did get to go on a trip, he got
+              brilliant SAT results and he got to go to prom. No matter how dark your days get remember if you make
+              it through the night the sun will always rise again in the morning. Thank you Awake.</p>
+            <small>Myrah</small>
+          </div>
+          <div class="carousel-item">
+            <p>Thank you Awake for giving me that confidence. When I came to see you I was a bit wobbly.</p>
+            <br>
+            <small>Anon</small>
+          </div>
+          <div class="carousel-item">
+            <p>Tremendous respect for the support you gave. So happy to report how amazingly different his education
+              is. It’s like having a new child who has an amazing relationship with his teachers and continues to
+              thrive and develop. I can only
+              advise parents to not fear change a fresh start really does overcome educational obstacles.</p>
+            <br>
+            <small>Tina</small>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
   </main>
 
@@ -110,7 +110,7 @@
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
     </div>
     <div class="col-12">
-      <a href="https://www.facebook.com/awa.ke.31" target="_blank" </a> <i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.facebook.com/awa.ke.31" target="_blank"><i class="fab fa-facebook-square"></i></a>
 
       <a href="https://www.instagram.com/bhamawake/" target="_blank"><i class="fab fa-instagram"></i></a>
 

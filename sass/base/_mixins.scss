@@ -1,36 +1,3 @@
-/*page transition fade-in*/
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 /*background image */
 @mixin bg-img($url, $repeat, $size) {
   background-image: url($url);
@@ -52,9 +19,18 @@
 /*link colors */
 @mixin links($color, $vcolor, $hcolor, $acolor) {
   color: $color;
-    &:visited { color: $vcolor;}
-    &:hover { color: $hcolor;}
-    &:active { color: $acolor;}
+
+  &:visited {
+    color: $vcolor;
+  }
+
+  &:hover {
+    color: $hcolor;
+  }
+
+  &:active {
+    color: $acolor;
+  }
 }
 
 /*primary button*/
@@ -80,5 +56,52 @@
       background-color: $shover;
       border-color: $sh-border;
     }
+  }
+}
+
+/*page transition fade-in*/
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }

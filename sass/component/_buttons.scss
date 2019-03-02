@@ -8,6 +8,7 @@ body {
 
     .form-button {
       @include success-buttons ($button-primary, $button-primary, $button-hover, $button-hover);
+
       /*margin: 0 auto;*/
       #send-button {
         width: 100%;
