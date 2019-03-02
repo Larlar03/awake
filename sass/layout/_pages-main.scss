@@ -22,6 +22,12 @@ body {
       text-justify: inter-word;
 
       .p-text {
+        -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 3s; /* Firefox < 16 */
+         -ms-animation: fadein 3s; /* Internet Explorer */
+          -o-animation: fadein 3s; /* Opera < 12.1 */
+             animation: fadein 3s;
+      
         h1 {
           color: $primary-color;
           font-size: 1.6rem;
@@ -108,7 +114,7 @@ body {
 
 
 /*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 2500px) {
+@media only screen and (min-width: 1025px) and (max-width: 3000px) {
   body {
     max-width: 2500px;
     min-width: 1025px;
@@ -131,7 +137,8 @@ body {
 
     main {
       width: 100%;
-      min-height: calc(100vh - 276px);
+      min-height: calc(100vh - 326px);
+      margin: 50px auto;
       padding: 0;
       @include flex(flex, column nowrap, center, center);
 
@@ -150,13 +157,13 @@ body {
         #what-left {
           @include bg-img('../img/what-we-do-1.jpg', no-repeat, cover);
           background-position: center;
-          min-height: 760px;
+          min-height: 819px;
         }
 
         #contact-left {
           @include bg-img('../img/contact-us.jpg', no-repeat, cover);
           background-position: center;
-          min-height: 760px;
+          min-height: 769px;
         }
 
         .p-left {
