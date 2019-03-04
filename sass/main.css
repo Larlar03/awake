@@ -250,10 +250,10 @@ body {
   align-items: stretch;
   background-image: url("../img/home-mob.png");
   background-repeat: no-repeat;
-  background-size: auto;
-  -o-background-size: auto;
-  -moz-background-size: auto;
-  -webkit-background-size: auto; }
+  background-size: auto !important;
+  -o-background-size: auto !important;
+  -moz-background-size: auto !important;
+  -webkit-background-size: auto !important; }
   body #deskintro {
     display: none; }
   body header {
@@ -302,10 +302,10 @@ body {
     min-width: 628px;
     background-image: url("../img/home.png");
     background-repeat: no-repeat;
-    background-size: auto;
-    -o-background-size: auto;
-    -moz-background-size: auto;
-    -webkit-background-size: auto; }
+    background-size: auto !important;
+    -o-background-size: auto !important;
+    -moz-background-size: auto !important;
+    -webkit-background-size: auto !important; }
     body main #intro #intro-overlay h1 {
       font-size: 4rem; }
     body #testimonials .carousel-inner {
@@ -322,10 +322,10 @@ body {
     min-width: 1025px;
     background-image: url("../img/home.png");
     background-repeat: no-repeat;
-    background-size: auto;
-    -o-background-size: auto;
-    -moz-background-size: auto;
-    -webkit-background-size: auto;
+    background-size: auto !important;
+    -o-background-size: auto !important;
+    -moz-background-size: auto !important;
+    -webkit-background-size: auto !important;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -356,10 +356,10 @@ body {
     min-width: 1281px;
     background-image: url("../img/home.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    -o-background-size: contain;
-    -moz-background-size: contain;
-    -webkit-background-size: contain;
+    background-size: contain !important;
+    -o-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -webkit-background-size: contain !important;
     background-position: top center; }
     body #testimonials {
       margin-bottom: 0;
