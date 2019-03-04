@@ -155,6 +155,18 @@ body main .form-button {
     width: 100%;
     margin: 0 auto; }
 
+@media only screen and (min-width: 2501px) and (max-width: 3000px) {
+  body main .form-button {
+    /*margin: 0 auto;*/ }
+    body main .form-button #send-button {
+      background-color: #DE0D92;
+      border-color: #DE0D92; }
+      body main .form-button #send-button:hover {
+        background-color: #E439A5;
+        border-color: #E439A5; }
+    body main .form-button #send-button {
+      width: 100%;
+      margin-top: 15px; } }
 #testimonials {
   background-color: white;
   width: 100%;
@@ -304,7 +316,7 @@ body {
   #testimonials .carousel-inner {
     padding: 130px 0 80px; } }
 /*DESKTOP*/
-@media only screen and (min-width: 1025px) and (max-width: 2500px) {
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
   body {
     max-width: 1280px;
     min-width: 1025px;
@@ -338,7 +350,7 @@ body {
         font-weight: bold;
         color: white; } }
 /*DESKTOP HI-RES*/
-@media only screen and (min-width: 2501px) and (max-width: 3000px) {
+@media only screen and (min-width: 1281px) and (max-width: 3000px) {
   body {
     max-width: 2500px;
     min-width: 1281px;
