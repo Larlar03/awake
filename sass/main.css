@@ -361,7 +361,26 @@ body {
     -moz-background-size: contain !important;
     -webkit-background-size: contain !important;
     background-position: top center; }
-    body #testimonials {
+    body main #intro {
+      height: 670px;
+      background-color: rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-end;
+      align-items: center; }
+      body main #intro #intro-overlay {
+        display: none; }
+      body main #intro #deskintro {
+        display: block;
+        width: 50%;
+        margin: 0;
+        padding: 0 50px 0 0;
+        text-align: right;
+        line-height: 1.7;
+        font-size: 3.75rem;
+        font-weight: bold;
+        color: white; }
+    body main #testimonials {
       margin-bottom: 0;
       padding-bottom: 0; } }
 
