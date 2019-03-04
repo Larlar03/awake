@@ -17,3 +17,20 @@ body {
     }
   }
 }
+
+@media only screen and (min-width: 2501px) and (max-width: 3000px) {
+  body {
+    main {
+  
+      .form-button {
+        @include success-buttons ($button-primary, $button-primary, $button-hover, $button-hover);
+  
+        /*margin: 0 auto;*/
+        #send-button {
+          width: 100%;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}
