@@ -136,11 +136,11 @@ body {
 }
 
 /*DESKTOP HI-RES*/
-@media only screen and (min-width: 1281px) and (max-width: 3000px) {
+@media only screen and (min-width: 2501px) and (max-width: 3000px) {
   body {
     max-width: 2500px;
     min-width: 1281px;
-    @include bg-img("../img/home.png", no-repeat, cover);
+    @include bg-img("../img/home.png", no-repeat, contain);
     background-position: top center;
 
     #testimonials {
