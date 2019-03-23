@@ -6,8 +6,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <title>Awake Birmingham - Contact Us</title>
-  <meta name="description" content="">
+  <title>Awake Birmingham</title>
+  <meta name="description" content="We support parents, students and schools to resolve issues that negatively impact on the students' education including: Fixed Term or Permanent Exclusions, Managed Moves, Pastoral Support, Reviews, School Meetings and Special Educational Needs.
+">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Icons -->
@@ -52,10 +53,12 @@
   <main>
     <section class="p-content">
       <div class="p-left" id="contact-left"></div>
+      
       <div class="p-text">
         <h1>Contact Us</h1>
-        <p class="contactp">Don’t leave it too late to seek advice or support from Jalika and Imani. We will get back
-          to you as soon as possible.</p>
+        <p>We hold initial Education Consultancy Drop-In Sessions* on the first and third Saturday of every month! This takes place between 10:00-13:00 at the <a href="#map">Afro Caribbean Millennium Centre, 339 Dudley Road, Birmingham, B18 4HB.</a></p><br>
+
+        <p>Following the initial consultation a plan will be devised and further meetings and referrals may be arranged with the school and other relevant third party organisations such as mentors and family support workers.</p><br>
 
         <img class="p-img" src="../img/contact-us.jpg" alt="boy with his hand in the air">
 
@@ -125,8 +128,15 @@
             </div>
           </form>
 
-        </div>
+        </div><br>
+        <p style="text-align: center;font-size: 0.9em; margin-bottom: 30px;">*Please note that there is an initial consultation fee of £10 payable on the day.</p>
+        <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.582000864445!2d-1.9451623847224935!3d52.48670364644956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd1a623fe11b%3A0x3b8cc3440a4ea649!2sAfro+Caribbean+Millenium+Centre!5e0!3m2!1sen!2suk!4v1550427914020"
+          width="100%" height="250" frameborder="0" with style="border:0 align" allowfullscreen></iframe>
       </div>
+      </div>
+      
     </section>
   </main>
 
@@ -140,7 +150,7 @@
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+44787400646">(+44) 7874 00646</a>
+      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>

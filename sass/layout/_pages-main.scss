@@ -6,6 +6,10 @@ body {
   margin: 0 auto;
   @include flex(flex, column nowrap, flex-start, stretch);
 
+  a {
+    @include links($primary-color, $primary-color, $links-icon-fh, $primary-color);
+  }
+
   #mobnav {
     background-color: $navbar-pages-color !important;
   }
@@ -129,7 +133,7 @@ body {
 /*DESKTOP*/
 @media only screen and (min-width: 1025px) and (max-width: 3000px) {
   body {
-    max-width: 2500px;
+    max-width: 3000px;
     min-width: 1025px;
 
     #mobnav {
@@ -151,14 +155,14 @@ body {
     main {
       width: 100%;
       min-height: calc(100vh - 326px);
-      margin: 50px auto;
+      margin: 0 auto;
       padding: 0;
       @include flex(flex, column nowrap, center, center);
 
       .p-content {
         width: 95%;
         height: 100%;
-        margin: 20px auto;
+        margin: 0 auto;
         @include flex(flex, row nowrap, space-between, center);
 
         #who-left {
@@ -169,29 +173,28 @@ body {
 
         #what-left {
           @include bg-img('../img/what-we-do-1.jpg', no-repeat, cover);
-          background-position: center;
+          background-position: 45% 0%;
           min-height: 819px;
         }
 
         #contact-left {
           @include bg-img('../img/contact-us.jpg', no-repeat, cover);
-          background-position: center;
-          min-height: 769px;
+          background-position: 25% 50%;
         }
 
         .p-left {
           display: block;
-          width: 55%;
+          width: 50%;
           min-height: 80%;
           margin-left: 60px;
           flex: 1 1 50%;
         }
 
         .p-text {
-          max-width: 45%;
+          max-width: 50%;
           height: auto;
           align-items: center;
-          flex: 1 1 45%;
+          flex: 1 1 55%;
           padding: 60px;
           margin: 0 auto;
 
@@ -202,7 +205,7 @@ body {
           h1 {
             font-size: 1.9rem;
             padding-bottom: 20px;
-            margin: 16px 0;
+            margin: 60px 0 16px 0;
             text-align: left;
             border-bottom: 2px solid $primary-color;
           }
@@ -219,10 +222,6 @@ body {
             ul {
               margin: 0 0 30px 0;
             }
-          }
-
-          .contactp {
-            padding: 0 0 20px;
           }
 
           .button-container {

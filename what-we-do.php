@@ -6,8 +6,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <title>Awake Birmingham - What We Do</title>
-  <meta name="description" content="">
+  <title>Awake Birmingham</title>
+  <meta name="description" content="We support parents, students and schools to resolve issues that negatively impact on the students' education including: Fixed Term or Permanent Exclusions, Managed Moves, Pastoral Support, Reviews, School Meetings and Special Educational Needs.
+">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Icons -->
@@ -53,28 +54,27 @@
         <h1>What We Do</h1>
         <div class="paragraphs">
           <div class="issues-list">
-            <p>We support parents with issues to do with education including:</p><br>
+            <p>Our  focus is to ensure that students receive the support required to meet their needs and support their journey through education.  We are able to help with the following areas:</p><br>
 
-            <ul style="line-height: 1.8; color: #AA076B; list-style: none; font-weight: 500;">
-              <li>Exclusions/Temporary exclusion</li>
-              <li>Children with special educational needs</li>
-              <li>School policy and procedure</li>
-              <li>Strategies for parents to tackle and address educational issues</li>
-              <li>Mediate between parents and schools</li>
+            <ul style="line-height: 2; color: #AA076B; list-style: none; font-weight: 500; margin: 0 auto 30px auto;">
+              <li>Admissions Process (appealing school places)</li>
+              <li>Additional/Special Educational Needs (assessment, diagnosis and accessing support)</li>
+              <li> Exclusions (fixed term or permanent - review, writing reports and appeals)</li>
+              <li>Managed Moves (assess suitability, support and review)</li>
+              <li>Pastoral Support  (arranging support for students in school)</li>
+              <li> Reintegration Meetings (identifying best practise and forward planning)</li>
+              <li>Regular Reviews (monitor progress and review strategy)</li>
+              <li>School Meetings (identifying issues and implementing solutions)</li>
             </ul>
           </div>
 
           <img src="img/what-we-do-1.jpg" alt="children in class">
 
           <p>
-            The primary goal of real education is not to deliver facts but to guide students to the truths that will
-            allow them to take responsibility for their lives. Parents need to be mindful of their approach when
-            dealing with schools and to
-            remain dignified and respectful but get the point across clearly.
-          </p>
-          <p>
-            The AWAKE team works alongside faith and non-faith schools in conjunction with parents to achieve the best
-            possible outcome for the child.</p>
+          We accompany parents and students to school meetings, meetings with the Governing Body, appeals and other third party professionals. We mediate between the parties and advocate on behalf of the parents and students. We work under the framework of Government guidelines, policies, statute and case law to ensure the correct processes are followed. 
+          </p><p>
+          If you are experiencing any difficulties with your child's school contact us now. The earlier the intervention  the more options available and the better the outcome for the students and their education!
+</p>
 
           <div class="button-container">
             <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend
@@ -94,7 +94,7 @@
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+44787400646">(+44) 7874 00646</a>
+      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>

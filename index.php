@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <title>Awake Birmingham</title>
-  <meta name="description" content="">
+  <meta name="description" content="We support parents, students and schools to resolve issues that negatively impact on the students' education including: Fixed Term or Permanent Exclusions, Managed Moves, Pastoral Support, Reviews, School Meetings and Special Educational Needs.
+">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Icons -->
@@ -49,9 +50,11 @@
   <main>
     <section id="intro">
       <div id="intro-overlay">
-        <h1 id="mobintro">Enabling & supporting young people and parents around the education system.</h1>
+        <h1 id="mobintro">We support parents, students and schools to resolve issues that negatively impact on the
+          students' education.</h1>
       </div>
-      <h1 id="deskintro">Enabling & supporting young people and parents around the education system.</h1>
+      <h1 id="deskintro">We support parents, students and schools to resolve issues that negatively impact on the
+        students' education.</h1>
     </section>
 
     <!-- TESTIMONIALS -->
@@ -61,6 +64,13 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -83,6 +93,61 @@
             <br>
             <small>Tina</small>
           </div>
+          <div class="carousel-item">
+            <p>I had an amazing experience with the advice and support of Awake Bham... permanent exclusion over
+              turned. Keep up the amazing work as our children and parents need a voice and with yourselves that is
+              what we have. THANK YOU ALL for everything.</p>
+            <br>
+            <small>Anon</small>
+          </div>
+          <div class="carousel-item">
+            <p>Thank God there's a place of support to give parents and children a voice.</p>
+            <br>
+            <small>Anon</small>
+          </div>
+          <div class="carousel-item">
+            <p>Really appreciate advice given from Awake Bham. You have helped my stress levels tremendously and
+              given me a better understanding of what can be done to help my son's education.</p>
+            <br>
+            <small>Anon</small>
+          </div>
+          <div class="carousel-item">
+            <p>Today I received support from this fantastic organisation. I can honestly say in my opinion it can be
+              very
+              daunting going through authorities procedures especially if you don't have the relevant training. I felt
+              alone and scared almost like I was backed into a corner but with the support of Awake things seem a
+              lot less stressful. I want to say a big massive thank you for your help and I would recommend this
+              service
+              to anyone. Thank you.</p>
+            <br>
+            <small>Anon</small>
+          </div>
+          <div class="carousel-item">
+            <p>There comes a time in your life when you need help, not just someone saying 'I can help' but an
+              understanding person with the specific set of tools for that particular job. Not only does Jalika have
+              the historical wisdom for the task on hand but she executes her expertise with purpose,
+              courtesy and professionalism. I can whole-heartedly recommend Awake Bham as a community organisation that
+              puts their clients not only first but at the heart of their interventions. I am therefore truly grateful
+              and honoured to have them in my corner when I need help, support and understanding the most. Much respect
+              and long may you continue to make changes within our communities. Peace.</p>
+            <br>
+            <small>Anon</small>
+          </div>
+          <div class="carousel-item">
+            <p>Awake Bham thank you so much for sharing your expertise with others for better outcomes for young people
+              and families when it comes to education. A fine example of dedicated individuals who come together to
+              support the community. #DoingTheDo</p>
+            <br>
+            <small>Anon</small>
+          </div>
+          <div class="carousel-item">
+            <p>Thank you so much for your help yesterday, your presence not only gave me strength but also made a huge
+              impact. I hope this teacher continues to acknowledge my son's autism traits as
+              this will help my son tremendously. I wasn't sure if I got off track but thanks to you he let me explain
+              about my son's routine and behaviour and now he does have some insight. I greatly appreciate your help</p>
+            <br>
+            <small>Anon</small>
+          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -104,7 +169,7 @@
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+44787400646">(+44) 7874 00646</a>
+      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
