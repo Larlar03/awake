@@ -6,8 +6,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <title>Awake Birmingham - What We Do</title>
-  <meta name="description" content="">
+  <title>Awake Birmingham</title>
+  <meta name="description" content="We support parents, students and schools to resolve issues that negatively impact on the students' education including: Fixed Term or Permanent Exclusions, Managed Moves, Pastoral Support, Reviews, School Meetings and Special Educational Needs.
+">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Icons -->
@@ -55,7 +56,7 @@
           <div class="issues-list">
             <p>Our  focus is to ensure that students receive the support required to meet their needs and support their journey through education.  We are able to help with the following areas:</p><br>
 
-            <ul style="line-height: 1.8; color: #AA076B; font-weight: 500; text-align: justify; margin: 0 auto 30px auto;">
+            <ul style="line-height: 2; color: #AA076B; list-style: none; font-weight: 500; margin: 0 auto 30px auto;">
               <li>Admissions Process (appealing school places)</li>
               <li>Additional/Special Educational Needs (assessment, diagnosis and accessing support)</li>
               <li> Exclusions (fixed term or permanent - review, writing reports and appeals)</li>
@@ -71,11 +72,8 @@
 
           <p>
           We accompany parents and students to school meetings, meetings with the Governing Body, appeals and other third party professionals. We mediate between the parties and advocate on behalf of the parents and students. We work under the framework of Government guidelines, policies, statute and case law to ensure the correct processes are followed. 
-
-          </p>
-          <p>
-          If you are experiencing any difficulties with your child's school contact us now. 
-The earlier the intervention  the more options available and the better the outcome for the students and their education!
+          </p><p>
+          If you are experiencing any difficulties with your child's school contact us now. The earlier the intervention  the more options available and the better the outcome for the students and their education!
 </p>
 
           <div class="button-container">

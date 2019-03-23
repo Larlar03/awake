@@ -6,8 +6,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <title>Awake Birmingham - Who We Are</title>
-  <meta name="description" content="">
+  <title>Awake Birmingham</title>
+  <meta name="description" content="We support parents, students and schools to resolve issues that negatively impact on the students' education including: Fixed Term or Permanent Exclusions, Managed Moves, Pastoral Support, Reviews, School Meetings and Special Educational Needs.
+">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Icons -->

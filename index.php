@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <title>Awake Birmingham</title>
-  <meta name="description" content="">
+  <meta name="description" content="We support parents, students and schools to resolve issues that negatively impact on the students' education including: Fixed Term or Permanent Exclusions, Managed Moves, Pastoral Support, Reviews, School Meetings and Special Educational Needs.
+">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Icons -->
@@ -49,9 +50,11 @@
   <main>
     <section id="intro">
       <div id="intro-overlay">
-        <h1 id="mobintro">We support parents, students and schools to resolve issues that negatively impact on the students' education.</h1>
+        <h1 id="mobintro">We support parents, students and schools to resolve issues that negatively impact on the
+          students' education.</h1>
       </div>
-      <h1 id="deskintro">We support parents, students and schools to resolve issues that negatively impact on the students' education.</h1>
+      <h1 id="deskintro">We support parents, students and schools to resolve issues that negatively impact on the
+        students' education.</h1>
     </section>
 
     <!-- TESTIMONIALS -->
@@ -91,39 +94,59 @@
             <small>Tina</small>
           </div>
           <div class="carousel-item">
-            <p>I had an amazing experience with the advice and support of Awake Bham... permanent exclusion over turned... keep up the amazing work as our children and parents need a voice and with yourselves tat it what we have THANK YOU ALL for everything.</p>
+            <p>I had an amazing experience with the advice and support of Awake Bham... permanent exclusion over
+              turned. Keep up the amazing work as our children and parents need a voice and with yourselves that is
+              what we have. THANK YOU ALL for everything.</p>
             <br>
-            <small>10.02.2019</small>
+            <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>Thank God...there's a place of support... to give parent and child a voice</p>
+            <p>Thank God there's a place of support to give parents and children a voice.</p>
             <br>
-            <small>11.02.2019</small>
+            <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>Really appreciate advice given from Awake Bham you have helped my stress levels tremendously today and given me a better understanding of what can be done to help my son education.</p>
+            <p>Really appreciate advice given from Awake Bham. You have helped my stress levels tremendously and
+              given me a better understanding of what can be done to help my son's education.</p>
             <br>
-            <small>02.03.2019</small>
+            <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>Today I received support from this fantastic company I can honestly say in my opinion it can be very daunting going through authorities procedures especially if you don't have the relevant training, I felt alone and scared almost like I was backed into a corner but with the support of @awakebham things seem a lot less stressful I want to say a big massive thank you for your help and I would recommend this service to anyone Thank You</p>
+            <p>Today I received support from this fantastic organisation. I can honestly say in my opinion it can be
+              very
+              daunting going through authorities procedures especially if you don't have the relevant training. I felt
+              alone and scared almost like I was backed into a corner but with the support of Awake things seem a
+              lot less stressful. I want to say a big massive thank you for your help and I would recommend this
+              service
+              to anyone. Thank you.</p>
             <br>
-            <small>16.01.2019</small>
+            <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>There comes a time in your lie when you need help, not just someone saying 'I can help' but an understanding person with the specific set of tools for that particular job. Not only des Jalika Cindy Tucker have the historical wisdom for the task on hand but she executes her expertise with purpose, courtesy and professionalism. I can whole-heartedly recommend Awake Bham as a community organisation that puts their clients not only first but at the heart of their interventions. I am therefore truly grateful and honoured to have them in my corner when I need help, support and understanding the most. Much respect and long my you continue to make changes within our communities. Peace.</p>
+            <p>There comes a time in your life when you need help, not just someone saying 'I can help' but an
+              understanding person with the specific set of tools for that particular job. Not only does Jalika have
+              the historical wisdom for the task on hand but she executes her expertise with purpose,
+              courtesy and professionalism. I can whole-heartedly recommend Awake Bham as a community organisation that
+              puts their clients not only first but at the heart of their interventions. I am therefore truly grateful
+              and honoured to have them in my corner when I need help, support and understanding the most. Much respect
+              and long may you continue to make changes within our communities. Peace.</p>
             <br>
-            <small>13.11.2018</small>
+            <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>Awake Bham thank you so much for sharing your expertise with others for better outcomes for young people and families when it comes to education. A fine example of dedicated individuals who come together to support the community. #DoingTheDo</p>
+            <p>Awake Bham thank you so much for sharing your expertise with others for better outcomes for young people
+              and families when it comes to education. A fine example of dedicated individuals who come together to
+              support the community. #DoingTheDo</p>
             <br>
-            <small>11.10.2018</small>
+            <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>Hi Awake  Thank you so much for your help yesterday, your presence not only gave me strength but also I believe made a huge impact. I hope this teacher does continue to acknowledge my son's autism traits as this will help my son tremendously. I wasn't sue if I got off track but thanks to you he let me explain about my son's routine and behaviour and now he does have some insight. I greatly appreciate your help</p>
+            <p>Thank you so much for your help yesterday, your presence not only gave me strength but also made a huge
+              impact. I hope this teacher continues to acknowledge my son's autism traits as
+              this will help my son tremendously. I wasn't sure if I got off track but thanks to you he let me explain
+              about my son's routine and behaviour and now he does have some insight. I greatly appreciate your help</p>
             <br>
-            <small>01.05.2018</small>
+            <small>Anon</small>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
