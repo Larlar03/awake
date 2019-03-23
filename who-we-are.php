@@ -52,24 +52,13 @@
       <div class="p-text">
         <h1>Who We Are</h1>
         <div class="paragraphs">
-          <p>The AWAKE team consists of Jalika and Imani who are qualified and registered social workers who are
-            professionals from a safeguarding, probation and educational background with combined experience of over 30
-            years.</p>
+          <p>Awake Birmingham was co-founded by two former social workers with over 30 years experience in safeguarding, education welfare, learning disabilities, Youth Offending and family support. We are also assisted by a paralegal who is the newest member of our team. Together we hold regular Educational Consultancy Drop-In Sessions and support families to resolve issues within schools. </p>
 
           <img src="img/who-we-are.jpg" alt="woman and girl">
 
           <p>
-            Our work is about providing parents and children with the preventative measures needed before it gets too
-            late. We can define a child’s future if the right decision is made and if parents act quickly. Referrals to
-            Awake Bham have mainly
-            stemmed from parents who have been threatened by schools to get social services involved, or using tactical
-            measures hence pressuring the parents into something they are not comfortable with. Schools are operating
-            negatively towards
-            children who have special needs/ learning disabilities and treating them like criminals. Awake Bham’s aim
-            is to educate, support and enable parents for the betterment of our children’s future and to inform schools
-            on the correct procedure
-            working
-            with all children.</p>
+          We work closely with a firm of solicitors who regularly provides preliminary legal advice at our Education Consultancy Drop-In Sessions. We also liaise with counsellors, mentors and support groups in the community who also work with families to help students develop and thrive.<br><br>Our aim is to provide parents, students and schools with preventative and early help strategies  to enable students to remain in full time education and continue to be an asset in the community. We hope that this will help safeguard our youths in our society, reduce the amount of referrals to Pupil Referral Units (PRUs), reduce the risk of young people becoming disengaged, involved in anti-social behaviour or criminal activity.<br><br>The organisation began as an endeavour to provide support to the most vulnerable and unheard members of the community, who do not have any access to support when educational difficulties arise. There has been overwhelming demand for our service across West Midlands.<br><br>
+</p>
         </div>
         <div class="button-container">
           <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend
@@ -88,7 +77,7 @@
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+44787400646">(+44) 7874 00646</a>
+      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>

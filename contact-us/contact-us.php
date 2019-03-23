@@ -54,8 +54,9 @@
       <div class="p-left" id="contact-left"></div>
       <div class="p-text">
         <h1>Contact Us</h1>
-        <p class="contactp">Don’t leave it too late to seek advice or support from Jalika and Imani. We will get back
-          to you as soon as possible.</p>
+        <p class="contactp">We hold initial Education Consultancy Drop-In Sessions* on the first and third Saturday of every month! This takes place between 10:00-13:00 at the Afro Caribbean Millennium Centre, 339 Dudley Road, Birmingham, B18 4HB.</p>
+
+        <p class="contactp">Following the initial consultation a plan will be devised and further meetings and referrals may be arranged with the school and other relevant third party organisations such as mentors and family support workers.</p>
 
         <img class="p-img" src="../img/contact-us.jpg" alt="boy with his hand in the air">
 
@@ -126,6 +127,7 @@
           </form>
 
         </div>
+        <p>*Please note that there is an initial consultation fee of £10 payable on the day.</p>
       </div>
     </section>
   </main>
@@ -140,7 +142,7 @@
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+44787400646">(+44) 7874 00646</a>
+      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
