@@ -51,6 +51,11 @@
         margin-right: 20px;
       }
     }
+    #navbarNavAltMarkup {
+      a.nav-item.nav-link.active {
+        color: #fff;
+      }
+    }
   }
 }
 
@@ -60,11 +65,13 @@
     background-color: $home-bgoverlay !important;
     height: 82px;
     width: 100vw;
+    font-size: 0.9rem;
 
     .navbar-brand {
       color: $primary-color;
       margin-right: 20px;
       width: auto;
+      font-size: 1.1rem;
 
       img {
         height: 54px;

@@ -106,7 +106,7 @@ body {
     min-width: 1025px;
     @include bg-img("../img/home.png", no-repeat, auto);
     @include flex(flex, column nowrap, flex-start, stretch);
-
+    
     main {
       #intro {
         height: 670px;
