@@ -26,6 +26,10 @@ body {
       text-align: justify;
       text-justify: inter-word;
 
+      #what-left, #who-left, #contact-left {
+        display: none;
+      }
+
       .p-text {
         -webkit-animation: fadein 3s;
         /* Safari, Chrome and Opera > 12.1 */
@@ -116,7 +120,7 @@ body {
   body {
     max-width: 1024px;
     min-width: 628px;
-    
+
 
     main {
       width: 85%;
@@ -162,11 +166,11 @@ body {
 
       .p-content {
         width: 100%;
-        height: 100%;
+        height: auto;
         margin: 0 auto;
         @include flex(flex, row nowrap, space-between, center);
 
-        #who-left {
+        /*#who-left {
           @include bg-img('../img/who-we-are.jpg', no-repeat, cover);
           background-position: center;
           min-height: 100%;
@@ -182,13 +186,32 @@ body {
           @include bg-img('../img/contact-us.jpg', no-repeat, cover);
           background-position: 26% 50%;
           min-height: 100%;
-        }
+        }*/
 
         .p-left {
           display: block;
-          width: 50%;
+          max-width: 50%;
           min-height: 100%;
           flex: 1 1 50%;
+          overflow: hidden;
+          #who-left {
+            display: block;
+            position: relative;
+            left: -49%;
+            width: 200%;
+          }
+          #what-left {
+            display: block;
+            position: relative;
+            left: -45%;
+            width: 230%;
+          }
+          #contact-left {
+            display: block;
+            position: relative;
+            left: -48%;
+            width: 290%;
+          }
         }
 
         .p-text {
@@ -222,6 +245,7 @@ body {
 
             ul {
               margin: 0 0 30px 0;
+              color: $button-primary;
             }
           }
 

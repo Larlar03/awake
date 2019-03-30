@@ -52,7 +52,9 @@
 
   <main>
     <section class="p-content">
-      <div class="p-left" id="contact-left"></div>
+      <div class="p-left">
+      <img id="contact-left" class="p-img" src="../img/contact-us.jpg" alt="boy with his hand in the air">
+      </div>
       
       <div class="p-text">
         <h1>Contact Us</h1>

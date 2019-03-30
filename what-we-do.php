@@ -49,7 +49,9 @@
 
   <main>
     <section class="p-content">
-      <div class="p-left" id="what-left"></div>
+      <div class="p-left" >
+      <img id="what-left" src="img/what-we-do-1.jpg" alt="children in class">
+      </div>
       <div class="p-text">
         <h1>What We Do</h1>
         <div class="paragraphs">
@@ -57,14 +59,14 @@
             <p>Our  focus is to ensure that students receive the support required to meet their needs and support their journey through education.  We are able to help with the following areas:</p><br>
 
             <ul style="line-height: 2; color: #AA076B; list-style: none; font-weight: 500; margin: 0 auto 30px auto;">
-              <li>Admissions Process (appealing school places)</li>
-              <li>Additional/Special Educational Needs (assessment, diagnosis and accessing support)</li>
-              <li> Exclusions (fixed term or permanent - review, writing reports and appeals)</li>
-              <li>Managed Moves (assess suitability, support and review)</li>
-              <li>Pastoral Support  (arranging support for students in school)</li>
-              <li> Reintegration Meetings (identifying best practise and forward planning)</li>
-              <li>Regular Reviews (monitor progress and review strategy)</li>
-              <li>School Meetings (identifying issues and implementing solutions)</li>
+              <li>Admissions Process</li>
+              <li>Additional/Special Educational Needs </li>
+              <li> Exclusions</li>
+              <li>Managed Moves</li>
+              <li>Pastoral Support</li>
+              <li> Reintegration Meetings</li>
+              <li>Regular Reviews</li>
+              <li>School Meetings</li>
             </ul>
           </div>
 

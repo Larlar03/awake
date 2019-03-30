@@ -49,7 +49,8 @@
 
   <main>
     <section class="p-content">
-      <div class="p-left" id="who-left"></div>
+      <div class="p-left">
+      <img id="who-left" src="img/who-we-are.jpg" alt="woman and girl"></div>
       <div class="p-text">
         <h1>Who We Are</h1>
         <div class="paragraphs">
