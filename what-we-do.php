@@ -16,32 +16,32 @@
     crossorigin="anonymous">
 
   <!-- Place favicon.ico in the root directory -->
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="/img/icons/icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <!--Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
 
-  <link rel="stylesheet" href="sass/pages.css">
+  <link rel="stylesheet" href="/sass/pages.css">
 
 </head>
 
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
+      <a class="navbar-brand" href="/home"><img src="/img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.php">Home</a>
-          <a class="nav-item nav-link" href="who-we-are.php">Who We Are</a>
-          <a class="nav-item nav-link active" href="what-we-do.php">What We Do<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="contact-us/contact-us.php">Contact Us</a>
+          <a class="nav-item nav-link" href="/home">Home</a>
+          <a class="nav-item nav-link" href="/who-we-are">Who We Are</a>
+          <a class="nav-item nav-link active" href="/what-we-do">What We Do<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="/contact-us/contact-us">Contact Us</a>
         </div>
       </div>
     </nav>
@@ -50,7 +50,7 @@
   <main>
     <section class="p-content">
       <div class="p-left" >
-      <img id="what-left" src="img/what-we-do-1.jpg" alt="children in class">
+      <img id="what-left" src="/img/what-we-do-1.jpg" alt="children in class">
       </div>
       <div class="p-text">
         <h1>What We Do</h1>
@@ -70,7 +70,7 @@
             </ul>
           </div>
 
-          <img src="img/what-we-do-1.jpg" alt="children in class">
+          <img src="/img/what-we-do-1.jpg" alt="children in class">
 
           <p>
           We accompany parents and students to school meetings, meetings with the Governing Body, appeals and other third party professionals. We mediate between the parties and advocate on behalf of the parents and students. We work under the framework of Government guidelines, policies, statute and case law to ensure the correct processes are followed. 
@@ -79,7 +79,7 @@
 </p>
 
           <div class="button-container">
-            <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend
+            <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='/contact-us/contact-us'">Attend
               a Drop-In Session</button>
           </div>
         </div>

@@ -16,32 +16,32 @@
     crossorigin="anonymous">
 
   <!-- Place favicon.ico in the root directory -->
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="/img/icons/icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <!--Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
 
-  <link rel="stylesheet" href="sass/pages.css">
+  <link rel="stylesheet" href="/sass/pages.css">
 
 </head>
 
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
+      <a class="navbar-brand" href="/home"><img src="/img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.php">Home </a>
-          <a class="nav-item nav-link active" href="who-we-are.php">Who We Are <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="what-we-do.php">What We Do</a>
-          <a class="nav-item nav-link" href="contact-us/contact-us.php">Contact Us</a>
+          <a class="nav-item nav-link" href="/home">Home </a>
+          <a class="nav-item nav-link active" href="/who-we-are">Who We Are <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="/what-we-do">What We Do</a>
+          <a class="nav-item nav-link" href="/contact-us/contact-us">Contact Us</a>
         </div>
       </div>
     </nav>
@@ -50,20 +50,20 @@
   <main>
     <section class="p-content">
       <div class="p-left">
-      <img id="who-left" src="img/who-we-are.jpg" alt="woman and girl"></div>
+      <img id="who-left" src="/img/who-we-are.jpg" alt="woman and girl"></div>
       <div class="p-text">
         <h1>Who We Are</h1>
         <div class="paragraphs">
           <p>Awake Birmingham was co-founded by two former social workers with over 30 years experience in safeguarding, education welfare, learning disabilities, Youth Offending and family support. We are also assisted by a paralegal who is the newest member of our team. Together we hold regular Educational Consultancy Drop-In Sessions and support families to resolve issues within schools. </p>
 
-          <img src="img/who-we-are.jpg" alt="woman and girl">
+          <img src="/img/who-we-are.jpg" alt="woman and girl">
 
           <p>
           We work closely with a firm of solicitors who regularly provides preliminary legal advice at our Education Consultancy Drop-In Sessions. We also liaise with counsellors, mentors and support groups in the community who also work with families to help students develop and thrive.<br><br>Our aim is to provide parents, students and schools with preventative and early help strategies  to enable students to remain in full time education and continue to be an asset in the community. We hope that this will help safeguard our youths in our society, reduce the amount of referrals to Pupil Referral Units (PRUs), reduce the risk of young people becoming disengaged, involved in anti-social behaviour or criminal activity.<br><br>The organisation began as an endeavour to provide support to the most vulnerable and unheard members of the community, who do not have any access to support when educational difficulties arise. There has been overwhelming demand for our service across West Midlands.<br><br>
 </p>
         </div>
         <div class="button-container">
-          <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend
+          <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='/contact-us/contact-us'">Attend
             a Drop-In Session</button>
         </div>
       </div>

@@ -16,8 +16,8 @@
     crossorigin="anonymous">
 
   <!-- Place favicon.ico in the root directory -->
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="apple-touch-icon" href="../img/icons/icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <!--Bootstrap -->
@@ -25,7 +25,7 @@
     crossorigin="anonymous">
 
   <!-- Stylesheer -->
-  <link rel="stylesheet" href="../sass/pages.css">
+  <link rel="stylesheet" href="/../sass/pages.css">
 
 
 </head>
@@ -33,7 +33,7 @@
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="../index.php"><img src="../img/logo.png" alt="Awake Birmingham logo">Awake
+      <a class="navbar-brand" href="/../home"><img src="/../img/logo.png" alt="Awake Birmingham logo">Awake
         Birmingham</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,10 +41,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="../index.php">Home</a>
-          <a class="nav-item nav-link" href="../who-we-are.php">Who We Are</a>
-          <a class="nav-item nav-link" href="../what-we-do.php">What We Do</a>
-          <a class="nav-item nav-link active" href="contact-us.php">Contact Us <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="/../home">Home</a>
+          <a class="nav-item nav-link" href="/../who-we-are">Who We Are</a>
+          <a class="nav-item nav-link" href="/../what-we-do">What We Do</a>
+          <a class="nav-item nav-link active" href="/contact-us">Contact Us <span class="sr-only">(current)</span></a>
         </div>
       </div>
     </nav>
@@ -53,7 +53,7 @@
   <main>
     <section class="p-content">
       <div class="p-left">
-      <img id="contact-left" class="p-img" src="../img/contact-us.jpg" alt="boy with his hand in the air">
+      <img id="contact-left" class="p-img" src="/../img/contact-us.jpg" alt="boy with his hand in the air">
       </div>
       
       <div class="p-text">
@@ -62,11 +62,11 @@
 
         <p>Following the initial consultation a plan will be devised and further meetings and referrals may be arranged with the school and other relevant third party organisations such as mentors and family support workers.</p><br>
 
-        <img class="p-img" src="../img/contact-us.jpg" alt="boy with his hand in the air">
+        <img class="p-img" src="/../img/contact-us.jpg" alt="boy with his hand in the air">
 
         <!-- Contact Form-->
         <div id="form-container">
-          <form id="contact-form" method="post" action="contact.php" role="form">
+          <form id="contact-form" method="POST" action="contact.php" role="form">
 
             <div class="messages"></div>
 
@@ -124,7 +124,7 @@
                 </div>
                 <br>
                 <div class="col form-button">
-                  <input type="submit" id="send-button" class="btn btn-success btn-send" value="Send message">
+                  <input name="submit" type="submit" id="send-button" class="btn btn-success btn-send" value="Send message">
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8="
     crossorigin="anonymous"></script>
-  <script src="contact.js"></script>
+  <script src="contact-script.js"></script>
 
   <!-- reCAPTCHA -->
   <script src='https://www.google.com/recaptcha/api.js'></script>
