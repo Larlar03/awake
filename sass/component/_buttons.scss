@@ -7,7 +7,7 @@ body {
     }
 
     .form-button {
-      @include success-buttons ($button-primary, $button-primary, $button-hover, $button-hover);
+      @include buttons ($button-primary, $button-primary, $button-hover, $button-hover);
 
       /*margin: 0 auto;*/
       #send-button {
@@ -15,6 +15,15 @@ body {
         margin: 0 auto;
       }
     }
+
+    .four-button-container {
+      @include buttons ($button-primary, $button-primary, $button-hover, $button-hover);
+      margin: 50px auto 70px auto;
+      #four-button {
+        width: 25% !important;
+        margin: 0 auto;
+      }
+    } 
   }
 }
 
@@ -23,7 +32,7 @@ body {
     main {
   
       .form-button {
-        @include success-buttons ($button-primary, $button-primary, $button-hover, $button-hover);
+        @include buttons ($button-primary, $button-primary, $button-hover, $button-hover);
   
         /*margin: 0 auto;*/
         #send-button {

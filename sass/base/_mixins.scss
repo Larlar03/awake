@@ -35,7 +35,7 @@
 
 /*primary button*/
 @mixin buttons ($primary, $p-border, $hover, $h-border) {
-  #cta-button {
+  #cta-button, #send-button, #four-button {
     background-color: $primary;
     border-color: $p-border;
 
@@ -46,18 +46,6 @@
   }
 }
 
-/*submit/success button */
-@mixin success-buttons ($sprimary, $sp-border, $shover, $sh-border) {
-  #send-button {
-    background-color: $sprimary;
-    border-color: $sp-border;
-
-    &:hover {
-      background-color: $shover;
-      border-color: $sh-border;
-    }
-  }
-}
 
 /*page transition fade-in*/
 @keyframes fadein {
