@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // require ReCaptcha class
-require('/recaptcha-master/src/autoload.php');
+require('recaptcha-master/src/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.

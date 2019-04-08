@@ -25,7 +25,7 @@
     crossorigin="anonymous">
 
   <!-- Stylesheer -->
-  <link rel="stylesheet" href="/../sass/pages.css">
+  <link rel="stylesheet" href="../sass/pages.css">
 
 
 </head>
@@ -33,7 +33,7 @@
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/../home"><img src="/../img/logo.png" alt="Awake Birmingham logo">Awake
+      <a class="navbar-brand" href="../index.php"><img src="../img/logo.png" alt="Awake Birmingham logo">Awake
         Birmingham</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,10 +41,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="/../home">Home</a>
-          <a class="nav-item nav-link" href="/../who-we-are">Who We Are</a>
-          <a class="nav-item nav-link" href="/../what-we-do">What We Do</a>
-          <a class="nav-item nav-link active" href="/contact-us">Contact Us <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="../index.php">Home</a>
+          <a class="nav-item nav-link" href="../who-we-are.php">Who We Are</a>
+          <a class="nav-item nav-link" href="../what-we-do.php">What We Do</a>
+          <a class="nav-item nav-link active" href="contact-us.php">Contact Us <span class="sr-only">(current)</span></a>
         </div>
       </div>
     </nav>
@@ -53,7 +53,7 @@
   <main>
     <section class="p-content">
       <div class="p-left">
-      <img id="contact-left" class="p-img" src="/../img/contact-us.jpg" alt="boy with his hand in the air">
+      <img id="contact-left" class="p-img" src="../img/contact-us.jpg" alt="boy with his hand in the air">
       </div>
       
       <div class="p-text">
@@ -62,7 +62,7 @@
 
         <p>Following the initial consultation a plan will be devised and further meetings and referrals may be arranged with the school and other relevant third party organisations such as mentors and family support workers.</p><br>
 
-        <img class="p-img" src="/../img/contact-us.jpg" alt="boy with his hand in the air">
+        <img class="p-img" src="../img/contact-us.jpg" alt="boy with his hand in the air">
 
         <!-- Contact Form-->
         <div id="form-container">

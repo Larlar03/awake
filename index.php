@@ -24,23 +24,23 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
 
-  <link rel="stylesheet" href="/sass/main.css">
+  <link rel="stylesheet" href="sass/main.css">
 </head>
 
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/home"><img src="/img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="/home">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="/who-we-are">Who We Are</a>
-          <a class="nav-item nav-link" href="/what-we-do">What We Do</a>
-          <a class="nav-item nav-link" href="/contact-us/contact-us">Contact Us</a>
+          <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="who-we-are.php">Who We Are</a>
+          <a class="nav-item nav-link" href="what-we-do.php">What We Do</a>
+          <a class="nav-item nav-link" href="contact-us/contact-us.php">Contact Us</a>
         </div>
       </div>
     </nav>
@@ -74,8 +74,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <p>We have had the toughest time but we have hung in there together. We have laughed and we have cried.
-              He nearly lost out on three very valuable school experiences, but he did get to go on a trip, he got
+            <p>We have had the toughest time but we have hung in there    together. He nearly lost out on three very valuable school experiences, but he did get to go on a trip, he got
               brilliant SAT results and he got to go to prom. No matter how dark your days get remember if you make
               it through the night the sun will always rise again in the morning. Thank you Awake.</p>
             <small>Myrah</small>
@@ -112,24 +111,21 @@
             <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>Today I received support from this fantastic organisation. I can honestly say in my opinion it can be
-              very
-              daunting going through authorities procedures especially if you don't have the relevant training. I felt
+            <p>I can honestly say it can be
+              very daunting going through authorities procedures especially if you don't have the relevant training. I felt
               alone and scared almost like I was backed into a corner but with the support of Awake things seem a
               lot less stressful. I want to say a big massive thank you for your help and I would recommend this
               service
-              to anyone. Thank you.</p>
+              to anyone.</p>
             <br>
             <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>There comes a time in your life when you need help, not just someone saying 'I can help' but an
-              understanding person with the specific set of tools for that particular job. Not only does Jalika have
-              the historical wisdom for the task on hand but she executes her expertise with purpose,
-              courtesy and professionalism. I can whole-heartedly recommend Awake Bham as a community organisation that
-              puts their clients not only first but at the heart of their interventions. I am therefore truly grateful
-              and honoured to have them in my corner when I need help, support and understanding the most. Much respect
-              and long may you continue to make changes within our communities. Peace.</p>
+            <p>There comes a time in your life when you need help from an
+              understanding person with the specific set of tools for that particular job. Jalika has
+              the historical wisdom for the task on hand and she executes her expertise with purpose,
+              courtesy and professionalism. I can whole-heartedly recommend Awake as an organisation that
+              puts clients both first and at the heart of their interventions.</p>
             <br>
             <small>Anon</small>
           </div>
@@ -144,7 +140,7 @@
             <p>Thank you so much for your help yesterday, your presence not only gave me strength but also made a huge
               impact. I hope this teacher continues to acknowledge my son's autism traits as
               this will help my son tremendously. I wasn't sure if I got off track but thanks to you he let me explain
-              about my son's routine and behaviour and now he does have some insight. I greatly appreciate your help</p>
+              about my son's routine and behaviour and now he does have some insight.</p>
             <br>
             <small>Anon</small>
           </div>
