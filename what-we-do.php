@@ -74,9 +74,9 @@
 
           <p>
           We accompany parents and students to school meetings, meetings with the Governing Body, appeals and other third party professionals. We mediate between the parties and advocate on behalf of the parents and students. We work under the framework of Government guidelines, policies, statute and case law to ensure the correct processes are followed. 
-          </p><p>
+          </p><br><p>
           If you are experiencing any difficulties with your child's school contact us now. The earlier the intervention  the more options available and the better the outcome for the students and their education!
-</p>
+</p><br>
 
           <div class="button-container">
             <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend
@@ -96,7 +96,7 @@
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
+      Imani: <a href="tel:+447828778484">(+44) 7877 400646</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>

@@ -12,8 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   <!-- Place favicon.ico in the root directory -->
   <link rel="manifest" href="manifest.json">
@@ -21,8 +21,8 @@
   <!-- Place favicon.ico in the root directory -->
 
   <!--Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
   <link rel="stylesheet" href="sass/main.css">
 </head>
@@ -74,7 +74,8 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <p>We have had the toughest time but we have hung in there    together. He nearly lost out on three very valuable school experiences, but he did get to go on a trip, he got
+            <p>We have had the toughest time but we have hung in there together. He nearly lost out on three very
+              valuable school experiences, but he did get to go on a trip, he got
               brilliant SAT results and he got to go to prom. No matter how dark your days get remember if you make
               it through the night the sun will always rise again in the morning. Thank you Awake.</p>
             <small>Myrah</small>
@@ -112,7 +113,8 @@
           </div>
           <div class="carousel-item">
             <p>I can honestly say it can be
-              very daunting going through authorities procedures especially if you don't have the relevant training. I felt
+              very daunting going through authorities procedures especially if you don't have the relevant training. I
+              felt
               alone and scared almost like I was backed into a corner but with the support of Awake things seem a
               lot less stressful. I want to say a big massive thank you for your help and I would recommend this
               service
@@ -144,6 +146,16 @@
             <br>
             <small>Anon</small>
           </div>
+          <div class="carousel-item">
+            <p>Hi just wanted to let you know that Awake was amazing, professional,
+              and prepared for the meeting. They spoke at the right time and
+              stood up for our human rights. I am overwhelmed with the support they showed today at points where I was weak in the meeting. I
+              couldn't have asked for a better defence. Thanks to the whole team for
+              everything they have done to help get the right support in place for
+              my son.</p>
+            <br>
+            <small>Anon</small>
+          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -165,7 +177,7 @@
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
+      Imani: <a href="tel:+447828778484">(+44) 7877 400646</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
@@ -175,7 +187,8 @@
 
       <a href="https://www.instagram.com/bhamawake/" target="_blank"><i class="fab fa-instagram"></i></a>
 
-      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174" target="_blank"><i
+          class="fab fa-linkedin"></i></a>
     </div>
     <div class="col-12">
       <p>&copy;
@@ -186,12 +199,15 @@
 
 
   <!--Bootstrap JS-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

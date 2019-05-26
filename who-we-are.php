@@ -79,7 +79,7 @@
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
+      Imani: <a href="tel:+447828778484">(+44) 7877 400646</a>
     </div>
     <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
