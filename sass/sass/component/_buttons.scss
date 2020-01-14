@@ -1,0 +1,45 @@
+body {
+  main {
+    .button-container {
+      margin: 30px auto;
+      width: 80%;
+      @include buttons ($button-primary, $button-primary, $button-hover, $button-hover)
+    }
+
+    .form-button {
+      @include buttons ($button-primary, $button-primary, $button-hover, $button-hover);
+
+      /*margin: 0 auto;*/
+      #send-button {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+
+    .four-button-container {
+      @include buttons ($button-primary, $button-primary, $button-hover, $button-hover);
+      margin: 50px auto 70px auto;
+      #four-button {
+        width: 25% !important;
+        margin: 0 auto;
+      }
+    } 
+  }
+}
+
+@media only screen and (min-width: 2501px) and (max-width: 3000px) {
+  body {
+    main {
+  
+      .form-button {
+        @include buttons ($button-primary, $button-primary, $button-hover, $button-hover);
+  
+        /*margin: 0 auto;*/
+        #send-button {
+          width: 100%;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

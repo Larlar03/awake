@@ -26,6 +26,7 @@
 
   &:hover {
     color: $hcolor;
+    transition: 0.5s;
   }
 
   &:active {
@@ -42,6 +43,7 @@
     &:hover {
       background-color: $hover;
       border-color: $h-border;
+      transition: 0.5s;
     }
   }
 }

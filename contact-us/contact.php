@@ -5,14 +5,14 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // require ReCaptcha class
-require('/recaptcha-master/src/autoload.php');
+require('recaptcha-master/src/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.
 $from = 'Awake Admin <admin@awakebirmingham.co.uk>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Awake Birmingham <lanagordon03@gmail.com>';
+$sendTo = 'Awake Birmingham <infoawake16@gmail.com>';
 
 // subject of the email
 $subject = 'New message from contact form';
@@ -40,25 +40,25 @@ try {
 
         // validate the ReCaptcha, if something is wrong, we throw an Exception,
         // i.e. code stops executing and goes to catch() block
-        
+
         if (!isset($_POST['g-recaptcha-response'])) {
             throw new \Exception('ReCaptcha is not set.');
         }
 
         // do not forget to enter your secret key from https://www.google.com/recaptcha/admin
-        
+
         $recaptcha = new \ReCaptcha\ReCaptcha($recaptchaSecret, new \ReCaptcha\RequestMethod\CurlPost());
-        
+
         // we validate the ReCaptcha field together with the user's IP address
-        
+
         $response = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
 
         if (!$response->isSuccess()) {
             throw new \Exception('ReCaptcha was not validated.');
         }
-        
+
         // everything went well, we can compose the message, as usually
-        
+
         $emailText = "You have a new message from your contact form\n=============================\n";
 
         foreach ($_POST as $key => $value) {
@@ -67,14 +67,14 @@ try {
                 $emailText .= "$fields[$key]: $value\n";
             }
         }
-    
+
         // All the neccessary headers for the email.
         $headers = array('Content-Type: text/plain; charset="UTF-8";',
             'From: ' . $from,
             'Reply-To: ' . $from,
             'Return-Path: ' . $from,
         );
-        
+
         // Send email
         mail($sendTo, $subject, $emailText, implode("\n", $headers));
 

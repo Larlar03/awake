@@ -12,8 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   <!-- Place favicon.ico in the root directory -->
   <link rel="manifest" href="manifest.json">
@@ -21,26 +21,26 @@
   <!-- Place favicon.ico in the root directory -->
 
   <!--Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="/sass/main.css">
+  <link rel="stylesheet" href="sass/main.css">
 </head>
 
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/home"><img src="/img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="/home">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="/who-we-are">Who We Are</a>
-          <a class="nav-item nav-link" href="/what-we-do">What We Do</a>
-          <a class="nav-item nav-link" href="/contact-us/contact-us">Contact Us</a>
+          <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="who-we-are">Who We Are</a>
+          <a class="nav-item nav-link" href="what-we-do">What We Do</a>
+          <a class="nav-item nav-link" href="contact-us/contact-us">Contact Us</a>
         </div>
       </div>
     </nav>
@@ -74,8 +74,8 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <p>We have had the toughest time but we have hung in there together. We have laughed and we have cried.
-              He nearly lost out on three very valuable school experiences, but he did get to go on a trip, he got
+            <p>We have had the toughest time but we have hung in there together. He nearly lost out on three very
+              valuable school experiences, but he did get to go on a trip, he got
               brilliant SAT results and he got to go to prom. No matter how dark your days get remember if you make
               it through the night the sun will always rise again in the morning. Thank you Awake.</p>
             <small>Myrah</small>
@@ -112,24 +112,22 @@
             <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>Today I received support from this fantastic organisation. I can honestly say in my opinion it can be
-              very
-              daunting going through authorities procedures especially if you don't have the relevant training. I felt
+            <p>I can honestly say it can be
+              very daunting going through authorities procedures especially if you don't have the relevant training. I
+              felt
               alone and scared almost like I was backed into a corner but with the support of Awake things seem a
               lot less stressful. I want to say a big massive thank you for your help and I would recommend this
               service
-              to anyone. Thank you.</p>
+              to anyone.</p>
             <br>
             <small>Anon</small>
           </div>
           <div class="carousel-item">
-            <p>There comes a time in your life when you need help, not just someone saying 'I can help' but an
-              understanding person with the specific set of tools for that particular job. Not only does Jalika have
-              the historical wisdom for the task on hand but she executes her expertise with purpose,
-              courtesy and professionalism. I can whole-heartedly recommend Awake Bham as a community organisation that
-              puts their clients not only first but at the heart of their interventions. I am therefore truly grateful
-              and honoured to have them in my corner when I need help, support and understanding the most. Much respect
-              and long may you continue to make changes within our communities. Peace.</p>
+            <p>There comes a time in your life when you need help from an
+              understanding person with the specific set of tools for that particular job. Jalika has
+              the historical wisdom for the task on hand and she executes her expertise with purpose,
+              courtesy and professionalism. I can whole-heartedly recommend Awake as an organisation that
+              puts clients both first and at the heart of their interventions.</p>
             <br>
             <small>Anon</small>
           </div>
@@ -144,7 +142,17 @@
             <p>Thank you so much for your help yesterday, your presence not only gave me strength but also made a huge
               impact. I hope this teacher continues to acknowledge my son's autism traits as
               this will help my son tremendously. I wasn't sure if I got off track but thanks to you he let me explain
-              about my son's routine and behaviour and now he does have some insight. I greatly appreciate your help</p>
+              about my son's routine and behaviour and now he does have some insight.</p>
+            <br>
+            <small>Anon</small>
+          </div>
+          <div class="carousel-item">
+            <p>Hi just wanted to let you know that Awake was amazing, professional,
+              and prepared for the meeting. They spoke at the right time and
+              stood up for our human rights. I am overwhelmed with the support they showed today at points where I was weak in the meeting. I
+              couldn't have asked for a better defence. Thanks to the whole team for
+              everything they have done to help get the right support in place for
+              my son.</p>
             <br>
             <small>Anon</small>
           </div>
@@ -163,15 +171,13 @@
 
   <footer class="row">
     <div class="col-12 col-md-12 col-lg-12">
-      <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
+        <a href="mailto:info@awakebirmingham.co.uk">info@awakebirmingham.co.uk</a>
     </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links jalika">
+    <div class="col-12 col-md-6 col-lg-6 contact-links jalika">
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
-    </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
+
+    <div class="col-12 col-md-6 col-lg-6 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
     </div>
     <div class="col-12">
@@ -179,7 +185,8 @@
 
       <a href="https://www.instagram.com/bhamawake/" target="_blank"><i class="fab fa-instagram"></i></a>
 
-      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174" target="_blank"><i
+          class="fab fa-linkedin"></i></a>
     </div>
     <div class="col-12">
       <p>&copy;
@@ -190,12 +197,15 @@
 
 
   <!--Bootstrap JS-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

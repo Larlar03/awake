@@ -1,0 +1,173 @@
+body {
+
+  #deskintro {
+    display: none;
+  }
+
+  max-width: 640px;
+  min-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  overflow-x: hidden;
+  flex-flow: column nowrap;
+  @include flex(flex, column nowrap, start, stretch);
+  @include bg-img("../img/home-mob.png", no-repeat, auto);
+
+  header {
+    width: 100%;
+    height: auto;
+    flex: 1 1 100%;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    flex: 1 1 100%;
+
+    #intro {
+      max-width: 100%;
+      height: 600px;
+      text-align: center;
+      display: table;
+      -webkit-animation: fadein 2s;
+      /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s;
+      /* Firefox < 16 */
+      -ms-animation: fadein 2s;
+      /* Internet Explorer */
+      -o-animation: fadein 2s;
+      /* Opera < 12.1 */
+      animation: fadein 2s;
+
+      #intro-overlay {
+        max-width: 100%;
+        height: 600px;
+        background-color: $home-bgoverlay;
+        text-align: center;
+        display: table;
+
+        h1 {
+          width: 100%;
+          margin: 0 auto;
+          display: block;
+          padding: 0 10px;
+          font-size: 2.8rem;
+          color: white;
+          vertical-align: middle;
+          display: table-cell;
+
+        }
+      }
+    }
+  }
+}
+
+
+/* ================================================================= */
+/*TABLET PORTRAIT*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+    min-width: 628px;
+    @include bg-img("../img/home.png", no-repeat, auto);
+
+    main {
+      #intro {
+        #intro-overlay {
+          h1 {
+            font-size: 4rem;
+          }
+        }
+      }
+    }
+
+    #testimonials {
+      .carousel-inner {
+        height: 450px;
+        padding: 100px 0 80px;
+      }
+    }
+  }
+}
+
+/*TABLET LANDSCAPE*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
+  #testimonials {
+    .carousel-inner {
+      padding: 130px 0 80px;
+    }
+  }
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    max-width: 1280px;
+    min-width: 1025px;
+    @include bg-img("../img/home.png", no-repeat, auto);
+    @include flex(flex, column nowrap, flex-start, stretch);
+    
+    main {
+      #intro {
+        height: 670px;
+        background-color: $home-bgoverlay;
+        @include flex(flex, row nowrap, flex-end, center);
+
+        #intro-overlay {
+          display: none;
+        }
+
+        #deskintro {
+          display: block;
+          width: 50%;
+          margin: 0;
+          padding: 0 50px 0 0;
+          text-align: right;
+          line-height: 1.7;
+          font-size: 3.4rem;
+          font-weight: bold;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+/*DESKTOP HI-RES*/
+@media only screen and (min-width: 1281px) and (max-width: 3000px) {
+  body {
+    max-width: 2500px;
+    min-width: 1281px;
+    @include bg-img("../img/home.png", no-repeat, contain);
+    background-position: top center;
+
+    main {
+      #intro {
+        height: 670px;
+        background-color: $home-bgoverlay;
+        @include flex(flex, row nowrap, flex-end, center);
+
+        #intro-overlay {
+          display: none;
+        }
+
+        #deskintro {
+          display: block;
+          width: 50%;
+          margin: 0;
+          padding: 0 50px 0 0;
+          text-align: right;
+          line-height: 1.7;
+          font-size: 3.4rem;
+          font-weight: bold;
+          color: white;
+        }
+      }
+
+      #testimonials {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+}

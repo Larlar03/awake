@@ -34,22 +34,22 @@
                     <h2>Sorry, we can't find that page...</h2>
 
                     <div class="col four-button-container">
-                            <button type="button" id="four-button" class="btn btn-primary btn-block" onclick="location.href='/home.php'">Go Home</button>
+                            <button type="button" id="four-button" class="btn btn-primary btn-block" onclick="location.href='/index.php'">Go Home</button>
                           </div>
 
                     <div class="col" id="socialmedia">
             
                       <a href="https://www.facebook.com/awa.ke.31" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            
+
                       <a href="https://www.instagram.com/bhamawake/" target="_blank"><i class="fab fa-instagram"></i></a>
-            
+
                       <a href="https://www.linkedin.com/in/awake-birmingham-5a9849174" target="_blank"><i
                           class="fab fa-linkedin"></i></a>
                     </div>
                   </div>
                 </div>
               </main>
-            
+
 
   <!--Bootstrap JS-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

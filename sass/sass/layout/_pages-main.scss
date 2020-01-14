@@ -1,0 +1,259 @@
+body {
+  background-image: none;
+  background-color: white;
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+  @include flex(flex, column nowrap, flex-start, stretch);
+
+  a {
+    @include links($primary-color, $primary-color, $links-icon-fh, $primary-color);
+  }
+
+  #mobnav {
+    background-color: $navbar-pages-color !important;
+  }
+
+  main {
+    width: 100%;
+    min-height: calc(100vh - 257px);
+    margin: 0 auto;
+    padding: 25px 0;
+
+    .p-content {
+      width: 80%;
+      margin: 0 auto;
+      text-align: justify;
+      text-justify: inter-word;
+
+      #what-left, #who-left, #contact-left {
+        display: none;
+      }
+
+      .p-text {
+        -webkit-animation: fadein 3s;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 3s;
+        /* Firefox < 16 */
+        -ms-animation: fadein 3s;
+        /* Internet Explorer */
+        -o-animation: fadein 3s;
+        /* Opera < 12.1 */
+        animation: fadein 3s;
+
+        h1 {
+          color: $primary-color;
+          font-size: 1.6rem;
+          text-align: center;
+          margin: 16px 0 30px 0;
+        }
+
+        p {
+          width: 100%;
+          line-height: 1.58;
+          font-size: 1rem;
+          margin: 0 auto;
+        }
+
+        .issues-list {
+          width: 100%;
+          margin: 0 auto !important;
+          text-align: center;
+
+          ul {
+            padding: 0;
+            margin: 0 auto;
+          }
+        }
+
+        img {
+          max-width: 100%;
+          padding: 25px 0;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+/* ================================================= */
+/*TABLET PORTRAIT*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+    min-width: 628px;
+
+    main {
+      width: 85%;
+      padding: 50px 25;
+
+      .p-content {
+        width: 100%;
+        text-align: justify;
+        text-justify: inter-word;
+
+        .p-text {
+          h1 {
+            color: $primary-color;
+            font-size: 1.6rem;
+            text-align: center;
+            margin: 16px 0 30px 0;
+          }
+
+          p {
+            font-size: 1rem;
+            padding: 0;
+          }
+
+          ul {
+            margin: 20px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*TABLET LANDSCAPE*/
+@media only screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    max-width: 1024px;
+    min-width: 628px;
+
+
+    main {
+      width: 85%;
+      padding: 50px 25px;
+      @include flex(flex, column nowrap, center, stretch);
+
+      .p-content img {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) and (max-width: 3000px) {
+  body {
+    max-width: 3000px;
+    min-width: 1025px;
+
+    #mobnav {
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-bottom: 1px solid #F7F7F7;
+      /*box-shadow: 0 4px 12px 0 rgba(0,0,0,.03) !important;*/
+
+      .navbar-brand {
+        color: $primary-color;
+      }
+
+      #navbarNavAltMarkup {
+        a.nav-item.nav-link.active {
+          color: $primary-color;
+        }
+      }
+    }
+
+    main {
+      width: 100%;
+      min-height: calc(100vh - 326px);
+      margin: 0 auto;
+      padding: 0;
+      @include flex(flex, column nowrap, center, center);
+
+      .p-content {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        @include flex(flex, row nowrap, space-between, center);
+
+        /*#who-left {
+          @include bg-img('../img/who-we-are.jpg', no-repeat, cover);
+          background-position: center;
+          min-height: 100%;
+        }
+
+        #what-left {
+          @include bg-img('../img/what-we-do-1.jpg', no-repeat, cover);
+          background-position: 45% 0%;
+          min-height: 100%;
+        }
+
+        #contact-left {
+          @include bg-img('../img/contact-us.jpg', no-repeat, cover);
+          background-position: 26% 50%;
+          min-height: 100%;
+        }*/
+
+        .p-left {
+          display: block;
+          max-width: 50%;
+          min-height: 100%;
+          flex: 1 1 50%;
+          overflow: hidden;
+          #who-left {
+            display: block;
+            position: relative;
+            left: -49%;
+            width: 200%;
+          }
+          #what-left {
+            display: block;
+            position: relative;
+            left: -45%;
+            width: 230%;
+          }
+          #contact-left {
+            display: block;
+            position: relative;
+            left: -48%;
+            width: 290%;
+          }
+        }
+
+        .p-text {
+          max-width: 50%;
+          height: auto;
+          align-items: center;
+          flex: 1 1 55%;
+          padding: 10px 50px 50px 50px;
+          margin: 0 auto;
+
+          img {
+            display: none;
+          }
+
+          h1 {
+            font-size: 1.9rem;
+            padding-bottom: 20px;
+            margin: 40px 0 16px 0;
+            text-align: left;
+            border-bottom: 2px solid $primary-color;
+          }
+
+          .paragraphs {
+            height: auto;
+
+            p {
+              font-size: 1rem;
+              padding: 0 0 30px;
+              text-align: justify;
+            }
+
+            ul {
+              margin: 0 0 30px 0;
+              color: $button-primary;
+            }
+          }
+
+          .button-container {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}

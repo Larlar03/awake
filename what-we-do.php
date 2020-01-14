@@ -24,24 +24,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
 
-  <link rel="stylesheet" href="/sass/pages.css">
+  <link rel="stylesheet" href="sass/pages.css">
 
 </head>
 
 <body>
   <header>
     <nav id="mobnav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/home"><img src="/img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Awake Birmingham logo">Awake Birmingham</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="/home">Home</a>
-          <a class="nav-item nav-link" href="/who-we-are">Who We Are</a>
-          <a class="nav-item nav-link active" href="/what-we-do">What We Do<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="/contact-us/contact-us">Contact Us</a>
+          <a class="nav-item nav-link" href="index">Home</a>
+          <a class="nav-item nav-link" href="who-we-are">Who We Are</a>
+          <a class="nav-item nav-link active" href="what-we-do">What We Do<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="contact-us/contact-us">Contact Us</a>
         </div>
       </div>
     </nav>
@@ -50,7 +50,7 @@
   <main>
     <section class="p-content">
       <div class="p-left" >
-      <img id="what-left" src="/img/what-we-do-1.jpg" alt="children in class">
+      <img id="what-left" src="img/what-we-do-1.jpg" alt="children in class">
       </div>
       <div class="p-text">
         <h1>What We Do</h1>
@@ -70,17 +70,17 @@
             </ul>
           </div>
 
-          <img src="/img/what-we-do-1.jpg" alt="children in class">
+          <img src="img/what-we-do-1.jpg" alt="children in class">
 
           <p>
           We accompany parents and students to school meetings, meetings with the Governing Body, appeals and other third party professionals. We mediate between the parties and advocate on behalf of the parents and students. We work under the framework of Government guidelines, policies, statute and case law to ensure the correct processes are followed. 
-          </p><p>
+          </p><br><p>
           If you are experiencing any difficulties with your child's school contact us now. The earlier the intervention  the more options available and the better the outcome for the students and their education!
-</p>
+</p><br>
 
           <div class="button-container">
-            <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='/contact-us/contact-us'">Attend
-              a Drop-In Session</button>
+            <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Book
+              an Appointment</button>
           </div>
         </div>
       </div>
@@ -90,15 +90,12 @@
 
   <footer class="row">
     <div class="col-12 col-md-12 col-lg-12">
-      <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
+      <a href="mailto:info@awakebirmingham.co.uk">info@awakebirmingham.co.uk</a>
     </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links jalika">
+    <div class="col-12 col-md-6 col-lg-6 contact-links jalika">
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+447828778484">(+44) 7828 778484</a>
-    </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
+    <div class="col-12 col-md-6 col-lg-6 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
     </div>
     <div class="col-12">
