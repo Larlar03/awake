@@ -38,10 +38,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.php">Home </a>
-          <a class="nav-item nav-link active" href="who-we-are.php">Who We Are <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="what-we-do.php">What We Do</a>
-          <a class="nav-item nav-link" href="contact-us/contact-us.php">Contact Us</a>
+          <a class="nav-item nav-link" href="index">Home </a>
+          <a class="nav-item nav-link active" href="who-we-are">Who We Are <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="what-we-do">What We Do</a>
+          <a class="nav-item nav-link" href="contact-us/contact-us">Contact Us</a>
         </div>
       </div>
     </nav>
@@ -54,17 +54,17 @@
       <div class="p-text">
         <h1>Who We Are</h1>
         <div class="paragraphs">
-          <p>Awake Birmingham was co-founded by two former social workers with over 30 years experience in safeguarding, education welfare, learning disabilities, Youth Offending and family support. We are also assisted by a paralegal who is the newest member of our team. Together we hold regular Educational Consultancy Drop-In Sessions and support families to resolve issues within schools. </p>
+          <p>Awake Birmingham was co-founded by two former social workers with over 30 years experience in safeguarding, education welfare, learning disabilities, Youth Offending and family support. We are also assisted by a paralegal who is the newest member of our team. Together we hold regular Educational Consultancy appointments and support families to resolve issues within schools. </p>
 
           <img src="img/who-we-are.jpg" alt="woman and girl">
 
           <p>
-          We work closely with a firm of solicitors who regularly provides preliminary legal advice at our Education Consultancy Drop-In Sessions. We also liaise with counsellors, mentors and support groups in the community who also work with families to help students develop and thrive.<br><br>Our aim is to provide parents, students and schools with preventative and early help strategies  to enable students to remain in full time education and continue to be an asset in the community. We hope that this will help safeguard our youths in our society, reduce the amount of referrals to Pupil Referral Units (PRUs), reduce the risk of young people becoming disengaged, involved in anti-social behaviour or criminal activity.<br><br>The organisation began as an endeavour to provide support to the most vulnerable and unheard members of the community, who do not have any access to support when educational difficulties arise. There has been overwhelming demand for our service across West Midlands.<br><br>
+          We work closely with a firm of solicitors who regularly provides preliminary legal advice at our Education Consultancy appointments. We also liaise with counsellors, mentors and support groups in the community who also work with families to help students develop and thrive.<br><br>Our aim is to provide parents, students and schools with preventative and early help strategies  to enable students to remain in full time education and continue to be an asset in the community. We hope that this will help safeguard our youths in our society, reduce the amount of referrals to Pupil Referral Units (PRUs), reduce the risk of young people becoming disengaged, involved in anti-social behaviour or criminal activity.<br><br>The organisation began as an endeavour to provide support to the most vulnerable and unheard members of the community, who do not have any access to support when educational difficulties arise. There has been overwhelming demand for our service across West Midlands.<br><br>
 </p>
         </div>
         <div class="button-container">
-          <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend
-            a Drop-In Session</button>
+          <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Book
+            an Appointment</button>
         </div>
       </div>
     </section>
@@ -73,15 +73,12 @@
 
   <footer class="row">
     <div class="col-12 col-md-12 col-lg-12">
-      <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
+        <a href="mailto:info@awakebirmingham.co.uk">info@awakebirmingham.co.uk</a>
     </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links jalika">
+    <div class="col-12 col-md-6 col-lg-6 contact-links jalika">
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+447828778484">(+44) 7877 400646</a>
-    </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
+    <div class="col-12 col-md-6 col-lg-6 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
     </div>
     <div class="col-12">

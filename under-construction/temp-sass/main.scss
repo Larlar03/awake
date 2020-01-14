@@ -1,0 +1,103 @@
+$primary-color: #9f186c;
+$secondary-color: #A0186C;
+$text-color: #D1D1D1;
+$links-icon-f: #DE0D92;
+$links-icon-fh: #330d22;
+
+/*flexbox */
+@mixin flex($display, $flow, $j-content, $a-items) {
+    display: $display;
+    flex-flow: $flow;
+    justify-content: $j-content;
+    align-items: $a-items;
+  }
+  
+  /*link colors */
+  @mixin links($color, $vcolor, $hcolor, $acolor) {
+    color: $color;
+      &:visited { color: $vcolor;}
+      &:hover { color: $hcolor;}
+      &:active { color: $acolor;}
+  }
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    body {
+        max-width: 100%;
+        min-height: 100%;
+        margin: 20px auto;
+        overflow-y: scroll;
+        background: #AA076B;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: $text-color;
+        #wrapper {
+            width: 100%;
+            height: 100%;
+            @include flex(flex, column nowrap, center, center);
+            #content {
+                img#logo {
+                    width: 35%;
+                }
+                text-align: center;
+                h1 {
+                    font-size: 2rem;
+                    margin: 20px 0 20px 0;
+                }
+                h2 {
+                    font-weight: 700;
+                    font-size: 3rem;
+                    margin: 30px 0;
+                    color: white;
+                }
+    
+                #socialmedia {
+                    margin: 30px auto;
+                        .fab {
+                            font-size: 2rem;
+                            margin: 0 10px;
+                            @include links($links-icon-f, $links-icon-f, $links-icon-fh, $links-icon-fh);
+                        }
+                }
+            }
+    
+            #contact {
+                text-align: center;
+                .contact-links {
+                    margin: 10px auto;
+                    a {
+                        @include links(white, white, $links-icon-fh, $links-icon-fh);
+                    }
+                }
+            }
+
+            #sessions {
+                color: $text-color;
+                margin: 40px auto;
+                #sessions-info {
+                    margin: 30px auto;
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                    h3 {
+                        font-weight: 600;
+                        margin-bottom: 20px;
+                        color: white;
+                    }
+                    p {
+                        strong {
+                            color: white;
+                        }
+                    }
+                }
+                #sessions-map {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }    
+}
+    

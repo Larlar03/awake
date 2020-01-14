@@ -38,10 +38,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.php">Home</a>
-          <a class="nav-item nav-link" href="who-we-are.php">Who We Are</a>
-          <a class="nav-item nav-link active" href="what-we-do.php">What We Do<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="contact-us/contact-us.php">Contact Us</a>
+          <a class="nav-item nav-link" href="index">Home</a>
+          <a class="nav-item nav-link" href="who-we-are">Who We Are</a>
+          <a class="nav-item nav-link active" href="what-we-do">What We Do<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="contact-us/contact-us">Contact Us</a>
         </div>
       </div>
     </nav>
@@ -79,8 +79,8 @@
 </p><br>
 
           <div class="button-container">
-            <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Attend
-              a Drop-In Session</button>
+            <button type="button" id="cta-button" class="btn btn-primary btn-block" onclick="location.href='contact-us/contact-us.php'">Book
+              an Appointment</button>
           </div>
         </div>
       </div>
@@ -90,15 +90,12 @@
 
   <footer class="row">
     <div class="col-12 col-md-12 col-lg-12">
-      <a href="mailto:infoawake16@gmail.com">infoawake16@gmail.com</a>
+      <a href="mailto:info@awakebirmingham.co.uk">info@awakebirmingham.co.uk</a>
     </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links jalika">
+    <div class="col-12 col-md-6 col-lg-6 contact-links jalika">
       Jalika: <a href="tel:+447538606045">(+44) 7538 606045</a>
     </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links">
-      Imani: <a href="tel:+447828778484">(+44) 7877 400646</a>
-    </div>
-    <div class="col-12 col-md-4 col-lg-4 contact-links shennice">
+    <div class="col-12 col-md-6 col-lg-6 contact-links shennice">
       Shennice: <a href="tel:+447999731982">(+44) 7999 731982</a>
     </div>
     <div class="col-12">
